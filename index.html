@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Botanica: a botanical R&D concept hub built on Mother Nature's Remedy." />
+  <title>Botanica — Botanical R&D Lab</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Botanica home"><span class="brand-mark">✦</span> Botanica</a>
+      <div class="nav-links">
+        <a href="#intel">Intel</a>
+        <a href="#blends">Blend ideas</a>
+        <a href="#safety">Safety</a>
+        <a href="#roadmap">Roadmap</a>
+      </div>
+    </nav>
+
+    <section class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Mother Nature's Remedy · separate R&D project</p>
+        <h1>Botanical formulas with taste, structure, and a hard compliance gate.</h1>
+        <p class="lede">Botanica is the formulation-intelligence layer on top of MNR: creative enough to generate distinctive blend concepts, disciplined enough to keep evidence quality, risk flags, and claims review visible from the first sketch.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#blends">Explore blend ideas</a>
+          <a class="button ghost" href="#safety">View guardrails</a>
+        </div>
+      </div>
+      <aside class="status-card" aria-label="Project status">
+        <div class="orb"></div>
+        <p class="status-label">Current state</p>
+        <h2>Draft R&D hub</h2>
+        <ul>
+          <li>Built on MNR / Docta context</li>
+          <li>Formula concepts are internal-only</li>
+          <li>Claims review required before launch</li>
+          <li>Updates route to Discord #mnr for now</li>
+        </ul>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="section intro" id="intel">
+      <div class="section-heading">
+        <p class="eyebrow">What we know so far</p>
+        <h2>The foundation</h2>
+      </div>
+      <div class="intel-grid">
+        <article class="glass-card">
+          <span class="pill">MNR</span>
+          <h3>Mother Nature's Remedy</h3>
+          <p>The parent herbal project. Current surfaces include Docta and Spiritual-Search. MNR owns the safety posture: peer-reviewed evidence first, regulatory sources second, anecdote/tradition clearly labeled.</p>
+        </article>
+        <article class="glass-card">
+          <span class="pill">Docta</span>
+          <h3>Shopify herbalist assistant</h3>
+          <p>A floating storefront widget with OpenAI guidance, product recommendations, and a HeyGen avatar proxy. Recent work expanded protocol language, so claims and interaction guardrails are the immediate priority.</p>
+        </article>
+        <article class="glass-card">
+          <span class="pill">Botanica</span>
+          <h3>Separate R&D lane</h3>
+          <p>Botanica now has its own project folder, plan, tickets, research queue, and formula-draft space. It borrows MNR's research standards but tracks its own formula roadmap.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="eyebrow">Operating thesis</p>
+        <h2>“Felt, not filler” — translated safely.</h2>
+      </div>
+      <p class="split-copy">The creative goal is distinctive, experiential botanical products. The compliance translation is: no disease claims, no prescription-drug equivalence, no guaranteed effects, no consumer dosing directions, and no high-risk stack without research review. Every concept below is a hypothesis, not a recommendation.</p>
+    </section>
+
+    <section class="section" id="blends">
+      <div class="section-heading wide">
+        <p class="eyebrow">Formula lab</p>
+        <h2>Possible blend ideas</h2>
+        <p>Filtered by target state. These are internal R&D concepts with evidence notes and risk flags, not medical advice or finished product claims.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Blend filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="Focus">Focus</button>
+        <button class="filter" data-filter="Calm">Calm</button>
+        <button class="filter" data-filter="Sleep">Sleep</button>
+        <button class="filter" data-filter="Mood">Mood</button>
+        <button class="filter" data-filter="Vitality">Vitality</button>
+        <button class="filter" data-filter="Recovery">Recovery</button>
+      </div>
+
+      <div class="blend-grid" id="blendGrid"></div>
+    </section>
+
+    <section class="section safety" id="safety">
+      <div class="section-heading">
+        <p class="eyebrow">Guardrails</p>
+        <h2>Claims and safety architecture</h2>
+      </div>
+      <div class="safety-grid">
+        <article>
+          <h3>Language to use internally</h3>
+          <ul>
+            <li>“Target state” instead of disease treatment.</li>
+            <li>“Formulation hypothesis” instead of protocol.</li>
+            <li>“Candidate ingredient range needs review” instead of dosing instructions.</li>
+            <li>“Evidence quality: peer-reviewed / traditional / anecdotal / unknown.”</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Language to avoid publicly</h3>
+          <ul>
+            <li>Prescription analogues such as “Adderall-like,” “Xanax-class,” or “MDMA-like.”</li>
+            <li>Claims to diagnose, treat, cure, prevent, or mitigate disease.</li>
+            <li>Guaranteed onset, guaranteed effect, or “works for everyone.”</li>
+            <li>Unreviewed contraindication or drug-interaction guidance.</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Mandatory review flags</h3>
+          <ul>
+            <li>Mood, anxiety, sleep, hormones, pain, pregnancy, liver risk.</li>
+            <li>Anticoagulants, sedatives, stimulants, SSRIs/SNRIs/MAOIs, CYP interactions.</li>
+            <li>High-potency extracts, obscure botanicals, or stacked actives.</li>
+            <li>Any consumer-facing copy or formula launch decision.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="evidence">
+      <div class="section-heading wide">
+        <p class="eyebrow">Evidence anchors</p>
+        <h2>Research notes powering the first pass</h2>
+        <p>The full claims review is still open. These anchors are included so the site is transparent about where early assumptions came from.</p>
+      </div>
+      <div class="evidence-list">
+        <a href="https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance" target="_blank" rel="noreferrer">FTC Health Products Compliance Guidance — advertising must be truthful, non-misleading, and substantiated by competent and reliable scientific evidence.</a>
+        <a href="https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements" target="_blank" rel="noreferrer">FDA Questions & Answers on Dietary Supplements — supplements are not pre-approved by FDA before marketing; firms are responsible for lawful labeling and safety.</a>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/41693488/" target="_blank" rel="noreferrer">Saffron mood evidence — 2026 GRADE-assessed systematic review/meta-analysis of 34 randomized controlled trials.</a>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/22643043/" target="_blank" rel="noreferrer">Rhodiola fatigue evidence — 2012 systematic review on physical and mental fatigue.</a>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/11994028/" target="_blank" rel="noreferrer">Kava safety evidence — systematic review focused on safety in anxiety studies; liver/sedation risk still requires conservative handling.</a>
+        <a href="https://pubmed.ncbi.nlm.nih.gov/?term=L-theanine+caffeine+attention+systematic+review" target="_blank" rel="noreferrer">L-theanine + caffeine attention literature — current RCT/meta-analysis trail for attention and mood in healthy participants.</a>
+      </div>
+    </section>
+
+    <section class="section roadmap" id="roadmap">
+      <div class="section-heading">
+        <p class="eyebrow">Execution path</p>
+        <h2>What happens next</h2>
+      </div>
+      <ol class="timeline">
+        <li><strong>Safety review.</strong> Finish Botanica agent claims/safety review before consumer-facing usage.</li>
+        <li><strong>MVP format.</strong> Lock the one-formula-at-a-time output structure: target state, mechanism, candidates, safety flags, evidence anchors.</li>
+        <li><strong>First research brief.</strong> Pick one high-potential formula and run MNR-style evidence review.</li>
+        <li><strong>Design decision.</strong> Decide if Botanica stays on-demand or gets its own planner/researcher/worker trio.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Botanica is an internal R&D concept site. It does not provide medical advice, diagnosis, treatment, or dosing instructions.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
