@@ -15,3 +15,5 @@ Open <http://localhost:4173>.
 - Internal R&D framing only.
 - No medical advice, no dosing instructions, no consumer-ready disease claims.
 - Blend ideas require claims/safety review before any public launch.
+- Lab Bot is a static rules-based chat prototype; a true open-ended LLM chat needs a secure backend/proxy so no API keys live in the browser.
+- The living research loop should rotate across regulators, PubMed/clinical literature, industry news, traditional herbal systems, recalls, supplier/product launches, and consumer format trends.

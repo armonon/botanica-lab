@@ -16,6 +16,7 @@
         <a href="#pulse">Research pulse</a>
         <a href="#remedies">Remedy atlas</a>
         <a href="#blends">Blend ideas</a>
+        <a href="#lab">Lab chat</a>
         <a href="#safety">Safety</a>
         <a href="#roadmap">Roadmap</a>
       </div>
@@ -28,7 +29,7 @@
         <p class="lede">Botanica is the formulation-intelligence layer on top of MNR: constantly scanning botanical evidence, health-industry movement, safety signals, and remedy ideas — then turning the best findings into organized, review-ready product concepts.</p>
         <div class="hero-actions">
           <a class="button primary" href="#pulse">Open research pulse</a>
-          <a class="button ghost" href="#remedies">View remedy atlas</a>
+          <a class="button ghost" href="#lab">Try Lab Bot</a>
         </div>
       </div>
       <aside class="status-card" aria-label="Project status">
@@ -89,6 +90,7 @@
         <span id="pulseStatus">Loading research pulse…</span>
         <span id="nextScan">Next scan: daily</span>
       </div>
+      <div class="source-radar" id="sourceRadar" aria-label="Source radar"></div>
       <div class="pulse-grid" id="pulseGrid"></div>
     </section>
 
@@ -124,9 +126,38 @@
         <button class="filter" data-filter="Mood">Mood</button>
         <button class="filter" data-filter="Vitality">Vitality</button>
         <button class="filter" data-filter="Recovery">Recovery</button>
+        <button class="filter" data-filter="Metabolic">Metabolic</button>
+        <button class="filter" data-filter="Immune">Immune</button>
+        <button class="filter" data-filter="Digestive">Digestive</button>
       </div>
 
       <div class="blend-grid" id="blendGrid"></div>
+    </section>
+
+    <section class="section lab" id="lab">
+      <div class="section-heading wide">
+        <p class="eyebrow">Talk to the formulator</p>
+        <h2>Botanica Lab Bot</h2>
+        <p>A real interactive chat prototype for exploring internal R&D combinations. Ask for a target state, format, or potency level and it will draft a combination with safety review flags.</p>
+      </div>
+      <div class="lab-shell">
+        <div class="chat-panel">
+          <div class="chat-log" id="chatLog" aria-live="polite"></div>
+          <form class="chat-form" id="chatForm">
+            <label class="sr-only" for="chatInput">Ask Botanica Lab Bot</label>
+            <input id="chatInput" type="text" placeholder="Example: potent calm focus gummy with uncommon herbs" autocomplete="off" />
+            <button type="submit">Generate</button>
+          </form>
+        </div>
+        <aside class="prompt-card">
+          <h3>Try prompts</h3>
+          <button data-prompt="Make me a potent calm-focus concept with unusual herbs, no heavy caffeine.">Potent calm focus</button>
+          <button data-prompt="I want an evening social ease tincture that feels warm but stays safe.">Evening social ease</button>
+          <button data-prompt="Create a dream ritual chocolate concept, adventurous but review-gated.">Dream ritual chocolate</button>
+          <button data-prompt="Build a metabolic support concept, but keep compliance tight.">Metabolic support</button>
+          <p>Static prototype note: this uses Botanica's local formulation rules. A full LLM chat can be wired next through a secure backend/proxy so no API keys live in the browser.</p>
+        </aside>
+      </div>
     </section>
 
     <section class="section safety" id="safety">
@@ -189,7 +220,8 @@
       <ol class="timeline">
         <li><strong>Living scan.</strong> Run the daily autonomous research pulse and keep the site fresh.</li>
         <li><strong>Safety review.</strong> Finish Botanica agent claims/safety review before consumer-facing usage.</li>
-        <li><strong>MVP format.</strong> Lock the one-formula-at-a-time output structure: target state, mechanism, candidates, safety flags, evidence anchors.</li>
+        <li><strong>MVP format.</strong> Expand one-formula-at-a-time output into both cards and the Lab Bot: target state, mechanism, candidates, safety flags, evidence anchors.</li>
+        <li><strong>Chat upgrade.</strong> Wire Lab Bot to a secure backend LLM/proxy if Armon wants true open-ended AI conversation beyond the static rules engine.</li>
         <li><strong>First research brief.</strong> Pick one high-potential formula and run MNR-style evidence review.</li>
         <li><strong>Design decision.</strong> Decide if Botanica stays on-demand or gets its own planner/researcher/worker trio.</li>
       </ol>
