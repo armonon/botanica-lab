@@ -1,0 +1,104 @@
+{
+  "lastUpdated": "2026-05-11T19:45:00-07:00",
+  "nextScan": "Daily at 06:15 PT",
+  "status": "Living research pulse online",
+  "summary": "Botanica now tracks regulatory guidance, health-product claims standards, PubMed botanical evidence, and remedy concepts as an evolving R&D surface. All remedy ideas are internal hypotheses until claims/safety review clears them.",
+  "signals": [
+    {
+      "title": "FTC health-product claims standard",
+      "source": "FTC Health Products Compliance Guidance",
+      "date": "Standing guidance",
+      "category": "Regulatory",
+      "confidence": "High",
+      "takeaway": "Health-product advertising needs truthful, non-misleading claims supported by competent and reliable scientific evidence.",
+      "whyItMatters": "Botanica should treat every public benefit claim as a substantiation problem, not a copywriting flourish.",
+      "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance"
+    },
+    {
+      "title": "FDA dietary supplement baseline",
+      "source": "FDA Questions & Answers on Dietary Supplements",
+      "date": "Standing guidance",
+      "category": "Regulatory",
+      "confidence": "High",
+      "takeaway": "Dietary supplements are not FDA-approved before marketing; companies are responsible for lawful labeling, safety, and manufacturing quality.",
+      "whyItMatters": "The site should keep formula ideas separate from launch-ready claims, labels, and dosing directions.",
+      "url": "https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements"
+    },
+    {
+      "title": "Saffron has an unusually interesting mood-support evidence trail",
+      "source": "PubMed: GRADE systematic review/meta-analysis of 34 RCTs",
+      "date": "2026",
+      "category": "Botanical evidence",
+      "confidence": "Medium-high",
+      "takeaway": "Saffron is worth prioritizing for a mood-brightening concept, but public language must avoid depression-treatment claims until reviewed.",
+      "whyItMatters": "Golden Hour is the strongest early candidate for a research-backed emotional-tone product lane.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41693488/"
+    },
+    {
+      "title": "Rhodiola remains a focus/fatigue candidate, but evidence needs nuance",
+      "source": "PubMed: Rhodiola fatigue systematic review",
+      "date": "2012",
+      "category": "Botanical evidence",
+      "confidence": "Medium",
+      "takeaway": "Rhodiola has a plausible fatigue-performance story, but claims need careful review and should avoid stimulant or ADHD framing.",
+      "whyItMatters": "Dawn Circuit can use Rhodiola as a drive layer only with conservative positioning.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22643043/"
+    },
+    {
+      "title": "Kava is felt, but safety-first positioning is mandatory",
+      "source": "PubMed: systematic review of kava safety in anxiety studies",
+      "date": "2002",
+      "category": "Safety",
+      "confidence": "Medium",
+      "takeaway": "Kava concepts need liver, alcohol, sedative, pregnancy, and medication warnings before any serious product path.",
+      "whyItMatters": "Velvet Lantern may be compelling, but it is specialist-review-only until safety language and sourcing are tight.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11994028/"
+    }
+  ],
+  "remedies": [
+    {
+      "name": "Golden Hour",
+      "lane": "Mood / emotional tone",
+      "leadHerbs": ["Saffron", "Lemon balm", "Cacao polyphenols"],
+      "promise": "Bright, warm daily mood-support positioning without disease claims.",
+      "evidence": "Best early signal among current concepts; saffron has recent RCT meta-analysis support.",
+      "risk": "Review SSRI/SNRI interactions, pregnancy cautions, and antidepressant-adjacent language.",
+      "status": "Priority research candidate"
+    },
+    {
+      "name": "Dawn Circuit",
+      "lane": "Calm focus",
+      "leadHerbs": ["Rhodiola", "L-theanine", "Lion's mane"],
+      "promise": "Task initiation and steady attention without harsh stimulant framing.",
+      "evidence": "Promising but mixed; needs sharper ingredient-specific review.",
+      "risk": "Avoid ADHD/drug-analogue claims; screen stimulant sensitivity and bipolar/mania language.",
+      "status": "Good MVP concept"
+    },
+    {
+      "name": "Velvet Lantern",
+      "lane": "Calm / evening ritual",
+      "leadHerbs": ["Kava", "Passionflower", "Lemon balm"],
+      "promise": "Felt body-level evening downshift with ritual appeal.",
+      "evidence": "Felt potential is high, but safety constraints are also high.",
+      "risk": "Liver/sedative/alcohol/medication warnings required; specialist-review-only.",
+      "status": "High-impact, high-caution"
+    },
+    {
+      "name": "Moonbridge",
+      "lane": "Sleep ritual / dream vividness",
+      "leadHerbs": ["Blue lotus", "Mugwort", "Lemon balm", "Chamomile"],
+      "promise": "A sensory dream ritual rather than a medical sleep product.",
+      "evidence": "Tradition-heavy; claims must stay experiential until reviewed.",
+      "risk": "Pregnancy caution for mugwort; avoid guaranteed lucid-dream claims.",
+      "status": "Brand-rich concept"
+    }
+  ],
+  "watchlist": [
+    "FDA dietary supplement guidance and warning letters",
+    "FTC health-product advertising enforcement",
+    "PubMed botanical RCTs and systematic reviews",
+    "NCCIH botanical safety pages",
+    "Supplement industry trend reports and product launches",
+    "High-risk herb interaction literature"
+  ]
+}

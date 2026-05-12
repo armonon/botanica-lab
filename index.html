@@ -13,6 +13,8 @@
       <a class="brand" href="#top" aria-label="Botanica home"><span class="brand-mark">✦</span> Botanica</a>
       <div class="nav-links">
         <a href="#intel">Intel</a>
+        <a href="#pulse">Research pulse</a>
+        <a href="#remedies">Remedy atlas</a>
         <a href="#blends">Blend ideas</a>
         <a href="#safety">Safety</a>
         <a href="#roadmap">Roadmap</a>
@@ -22,22 +24,23 @@
     <section class="hero-grid">
       <div class="hero-copy">
         <p class="eyebrow">Mother Nature's Remedy · separate R&D project</p>
-        <h1>Botanical formulas with taste, structure, and a hard compliance gate.</h1>
-        <p class="lede">Botanica is the formulation-intelligence layer on top of MNR: creative enough to generate distinctive blend concepts, disciplined enough to keep evidence quality, risk flags, and claims review visible from the first sketch.</p>
+        <h1>A living botanical intelligence lab.</h1>
+        <p class="lede">Botanica is the formulation-intelligence layer on top of MNR: constantly scanning botanical evidence, health-industry movement, safety signals, and remedy ideas — then turning the best findings into organized, review-ready product concepts.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#blends">Explore blend ideas</a>
-          <a class="button ghost" href="#safety">View guardrails</a>
+          <a class="button primary" href="#pulse">Open research pulse</a>
+          <a class="button ghost" href="#remedies">View remedy atlas</a>
         </div>
       </div>
       <aside class="status-card" aria-label="Project status">
         <div class="orb"></div>
         <p class="status-label">Current state</p>
-        <h2>Draft R&D hub</h2>
+        <h2>Living R&D hub</h2>
+        <div class="live-indicator"><span></span> Daily research loop armed</div>
         <ul>
-          <li>Built on MNR / Docta context</li>
-          <li>Formula concepts are internal-only</li>
-          <li>Claims review required before launch</li>
-          <li>Updates route to Discord #mnr for now</li>
+          <li>Scans evidence, regulation, and market signals</li>
+          <li>Best findings surface in the Research Pulse</li>
+          <li>Remedy ideas stay internal until claims review</li>
+          <li id="lastUpdated">Last update: loading…</li>
         </ul>
       </aside>
     </section>
@@ -74,6 +77,36 @@
         <h2>“Felt, not filler” — translated safely.</h2>
       </div>
       <p class="split-copy">The creative goal is distinctive, experiential botanical products. The compliance translation is: no disease claims, no prescription-drug equivalence, no guaranteed effects, no consumer dosing directions, and no high-risk stack without research review. Every concept below is a hypothesis, not a recommendation.</p>
+    </section>
+
+    <section class="section pulse" id="pulse">
+      <div class="section-heading wide">
+        <p class="eyebrow">Forever alive</p>
+        <h2>Research Pulse</h2>
+        <p id="pulseSummary">A living feed of the strongest research, regulatory, safety, and industry signals Botanica is tracking.</p>
+      </div>
+      <div class="pulse-meta">
+        <span id="pulseStatus">Loading research pulse…</span>
+        <span id="nextScan">Next scan: daily</span>
+      </div>
+      <div class="pulse-grid" id="pulseGrid"></div>
+    </section>
+
+    <section class="section remedies" id="remedies">
+      <div class="section-heading wide">
+        <p class="eyebrow">Best current remedies</p>
+        <h2>Remedy Atlas</h2>
+        <p>The strongest current formulation directions, ranked by product promise, evidence quality, and safety/compliance feasibility.</p>
+      </div>
+      <div class="remedy-grid" id="remedyGrid"></div>
+    </section>
+
+    <section class="section watchlist" id="watchlist">
+      <div class="section-heading">
+        <p class="eyebrow">What Botanica watches</p>
+        <h2>Living watchlist</h2>
+      </div>
+      <div class="watch-list" id="watchList"></div>
     </section>
 
     <section class="section" id="blends">
@@ -154,6 +187,7 @@
         <h2>What happens next</h2>
       </div>
       <ol class="timeline">
+        <li><strong>Living scan.</strong> Run the daily autonomous research pulse and keep the site fresh.</li>
         <li><strong>Safety review.</strong> Finish Botanica agent claims/safety review before consumer-facing usage.</li>
         <li><strong>MVP format.</strong> Lock the one-formula-at-a-time output structure: target state, mechanism, candidates, safety flags, evidence anchors.</li>
         <li><strong>First research brief.</strong> Pick one high-potential formula and run MNR-style evidence review.</li>
@@ -163,7 +197,7 @@
   </main>
 
   <footer class="footer">
-    <p>Botanica is an internal R&D concept site. It does not provide medical advice, diagnosis, treatment, or dosing instructions.</p>
+    <p>Botanica is a living internal R&D concept site. It does not provide medical advice, diagnosis, treatment, or dosing instructions.</p>
     <a href="#top">Back to top ↑</a>
   </footer>
 

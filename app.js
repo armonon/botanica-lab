@@ -137,3 +137,77 @@ filters.forEach((button) => {
 });
 
 render();
+
+
+async function loadResearchPulse() {
+  try {
+    const response = await fetch('./data/research.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error(`research.json ${response.status}`);
+    const data = await response.json();
+    renderResearchPulse(data);
+  } catch (error) {
+    console.warn('Research pulse unavailable', error);
+    const pulseStatus = document.querySelector('#pulseStatus');
+    if (pulseStatus) pulseStatus.textContent = 'Research pulse temporarily unavailable';
+  }
+}
+
+function renderResearchPulse(data) {
+  const lastUpdated = document.querySelector('#lastUpdated');
+  const pulseSummary = document.querySelector('#pulseSummary');
+  const pulseStatus = document.querySelector('#pulseStatus');
+  const nextScan = document.querySelector('#nextScan');
+  const pulseGrid = document.querySelector('#pulseGrid');
+  const remedyGrid = document.querySelector('#remedyGrid');
+  const watchList = document.querySelector('#watchList');
+
+  const updated = data.lastUpdated ? new Date(data.lastUpdated) : null;
+  const formatted = updated && !Number.isNaN(updated.valueOf())
+    ? updated.toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' })
+    : 'recently';
+
+  if (lastUpdated) lastUpdated.textContent = `Last update: ${formatted}`;
+  if (pulseSummary && data.summary) pulseSummary.textContent = data.summary;
+  if (pulseStatus) pulseStatus.textContent = data.status || 'Research pulse online';
+  if (nextScan) nextScan.textContent = `Next scan: ${data.nextScan || 'daily'}`;
+
+  if (pulseGrid) {
+    pulseGrid.innerHTML = (data.signals || []).map((signal) => `
+      <article class="pulse-card">
+        <div class="blend-topline">
+          <span class="tag">${signal.category || 'Signal'}</span>
+          <span class="tag muted">${signal.confidence || 'Review'}</span>
+        </div>
+        <h3>${signal.title}</h3>
+        <p>${signal.takeaway}</p>
+        <p><strong>Why it matters:</strong> ${signal.whyItMatters}</p>
+        <p class="source-line">${signal.source || 'Source pending'} · ${signal.date || 'undated'}</p>
+        ${signal.url ? `<a href="${signal.url}" target="_blank" rel="noreferrer">Open source →</a>` : ''}
+      </article>
+    `).join('');
+  }
+
+  if (remedyGrid) {
+    remedyGrid.innerHTML = (data.remedies || []).map((remedy) => `
+      <article class="remedy-card">
+        <div class="blend-topline">
+          <span class="tag">${remedy.lane || 'Remedy'}</span>
+          <span class="tag muted">${remedy.status || 'Concept'}</span>
+        </div>
+        <h3>${remedy.name}</h3>
+        <div class="remedy-herbs">${(remedy.leadHerbs || []).map((herb) => `<span>${herb}</span>`).join('')}</div>
+        <div class="remedy-detail">
+          <p><strong>Product promise:</strong> ${remedy.promise}</p>
+          <p><strong>Evidence read:</strong> ${remedy.evidence}</p>
+          <p><strong>Risk gate:</strong> ${remedy.risk}</p>
+        </div>
+      </article>
+    `).join('');
+  }
+
+  if (watchList) {
+    watchList.innerHTML = (data.watchlist || []).map((item) => `<span>${item}</span>`).join('');
+  }
+}
+
+loadResearchPulse();
