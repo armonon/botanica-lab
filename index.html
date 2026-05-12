@@ -14,6 +14,7 @@
       <div class="nav-links">
         <a href="#intel">Intel</a>
         <a href="#pulse">Research pulse</a>
+        <a href="#articles">Deep dives</a>
         <a href="#remedies">Remedy atlas</a>
         <a href="#blends">Blend ideas</a>
         <a href="#lab">Lab chat</a>
@@ -28,7 +29,7 @@
         <h1>A living botanical intelligence lab.</h1>
         <p class="lede">Botanica is the formulation-intelligence layer on top of MNR: constantly scanning botanical evidence, health-industry movement, safety signals, and remedy ideas — then turning the best findings into organized, review-ready product concepts.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#pulse">Open research pulse</a>
+          <a class="button primary" href="#articles">Read deep dives</a>
           <a class="button ghost" href="#lab">Try Lab Bot</a>
         </div>
       </div>
@@ -92,6 +93,16 @@
       </div>
       <div class="source-radar" id="sourceRadar" aria-label="Source radar"></div>
       <div class="pulse-grid" id="pulseGrid"></div>
+    </section>
+
+    <section class="section articles" id="articles">
+      <div class="section-heading wide">
+        <p class="eyebrow">Clickable research desk</p>
+        <h2>News, citations, and niche deep dives</h2>
+        <p id="articleSummary">Open a topic to read the Botanica take, blend ideas, safety flags, and linked source trail.</p>
+      </div>
+      <div class="article-controls" id="articleControls" role="group" aria-label="Article filters"></div>
+      <div class="article-grid" id="articleGrid"></div>
     </section>
 
     <section class="section remedies" id="remedies">
@@ -228,6 +239,11 @@
       </ol>
     </section>
   </main>
+
+  <div class="article-modal" id="articleModal" aria-hidden="true" role="dialog" aria-label="Botanica article">
+    <div class="article-modal-backdrop" data-close-article></div>
+    <article class="article-modal-card" id="articleModalCard" tabindex="-1"></article>
+  </div>
 
   <footer class="footer">
     <p>Botanica is a living internal R&D concept site. It does not provide medical advice, diagnosis, treatment, or dosing instructions.</p>

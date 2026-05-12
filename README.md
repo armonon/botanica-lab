@@ -30,3 +30,4 @@ Then open the Vercel local URL and use the Lab Bot.
 - The browser never stores API keys. Set `OPENAI_API_KEY` as a server-side environment variable.
 - If `/api/chat` is unavailable on GitHub Pages, Lab Bot falls back to the local rules-based blend generator.
 - The living research loop should rotate across regulators, PubMed/clinical literature, industry news, traditional herbal systems, recalls, supplier/product launches, and consumer format trends.
+- Clickable articles/deep dives live in `data/articles.json`; each post should include citations, source links, blend ideas, safety flags, and niche formulation angles.

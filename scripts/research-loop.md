@@ -17,12 +17,18 @@ Daily autonomous task:
    - 5–9 best new `signals`
    - 5–8 strongest `remedies`
    - concise watchlist adjustments
-3. Keep language internal-R&D safe:
+3. Update `sites/botanica/data/articles.json` with clickable blog/deep-dive posts when a topic deserves more than a short signal:
+   - real citations and source URLs
+   - niche topic angle / formulation white space
+   - blend ideas
+   - safety and claims flags
+   - source trail links for further reading
+4. Keep language internal-R&D safe:
    - no medical advice
    - no disease-treatment claims
    - no dosing instructions
    - no prescription-drug equivalence
    - clear risk flags
    - mark potent/experimental formulas as specialist-review-only when they touch serotonergic, sedative, hormone, glycemic, liver, CYP, anticoagulant, psychiatric, pregnancy, or medication concerns
-4. Commit and push to `armonon/botanica-lab` main.
-5. Announce to Discord #mnr only when there is a meaningful new signal, a blocker, or a broken deploy.
+5. Commit and push to `armonon/botanica-lab` main.
+6. Announce to Discord #mnr only when there is a meaningful new signal, a blocker, or a broken deploy.

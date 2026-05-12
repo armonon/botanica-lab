@@ -190,8 +190,14 @@ const chatForm = document.querySelector('#chatForm');
 const chatInput = document.querySelector('#chatInput');
 const quickPrompts = document.querySelectorAll('[data-prompt]');
 const chatStatus = document.querySelector('#chatStatus');
+const articleSummary = document.querySelector('#articleSummary');
+const articleControls = document.querySelector('#articleControls');
+const articleGrid = document.querySelector('#articleGrid');
+const articleModal = document.querySelector('#articleModal');
+const articleModalCard = document.querySelector('#articleModalCard');
 const chatEndpoint = window.BOTANICA_CHAT_ENDPOINT || '/api/chat';
 const chatHistory = [];
+let articleData = [];
 
 function escapeHtml(value) {
   return String(value)
@@ -383,6 +389,132 @@ render();
 appendChat('bot', '<p><strong>Botanica Lab Bot online.</strong> Tell me the target state, format, ingredients you like/avoid, and how adventurous you want to get. If the AI backend is deployed, I’ll answer open-ended; otherwise I’ll use the local safety-rules fallback.</p>');
 setChatStatus('Ready for creative blend ideation', 'idle');
 
+async function loadArticles() {
+  try {
+    const response = await fetch('./data/articles.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error(`articles.json ${response.status}`);
+    const data = await response.json();
+    articleData = data.articles || [];
+    if (articleSummary && data.summary) articleSummary.textContent = data.summary;
+    renderArticleControls(articleData);
+    renderArticles('all');
+  } catch (error) {
+    console.warn('Articles unavailable', error);
+    if (articleGrid) articleGrid.innerHTML = '<p class="empty-state">Deep dives are temporarily unavailable.</p>';
+  }
+}
+
+function articleCategories(articles) {
+  return ['all', ...Array.from(new Set(articles.map((article) => article.category).filter(Boolean)))];
+}
+
+function renderArticleControls(articles) {
+  if (!articleControls) return;
+  articleControls.innerHTML = articleCategories(articles).map((category) => `
+    <button class="article-filter${category === 'all' ? ' active' : ''}" data-article-filter="${escapeHtml(category)}">
+      ${escapeHtml(category === 'all' ? 'All topics' : category)}
+    </button>
+  `).join('');
+}
+
+function renderArticles(filter = 'all') {
+  if (!articleGrid) return;
+  const visible = filter === 'all' ? articleData : articleData.filter((article) => article.category === filter);
+  articleGrid.innerHTML = visible.map((article) => `
+    <article class="article-card" data-article-slug="${escapeHtml(article.slug)}" tabindex="0" role="button" aria-label="Read ${escapeHtml(article.title)}">
+      <div class="blend-topline">
+        <span class="tag">${escapeHtml(article.category)}</span>
+        <span class="tag muted">${escapeHtml(article.readTime || 'Deep dive')}</span>
+      </div>
+      <h3>${escapeHtml(article.title)}</h3>
+      <p class="article-signal">${escapeHtml(article.signal || article.summary || '')}</p>
+      <div class="article-tags">${(article.tags || []).slice(0, 4).map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</div>
+      <footer class="article-foot">
+        <span>${escapeHtml(article.date || 'Research note')}</span>
+        <strong>Open post →</strong>
+      </footer>
+    </article>
+  `).join('');
+}
+
+function openArticle(slug) {
+  const article = articleData.find((item) => item.slug === slug);
+  if (!article || !articleModal || !articleModalCard) return;
+
+  articleModalCard.innerHTML = `
+    <button class="modal-close" type="button" data-close-article aria-label="Close article">×</button>
+    <div class="blend-topline">
+      <span class="tag">${escapeHtml(article.category)}</span>
+      <span class="tag muted">${escapeHtml(article.readTime || 'Deep dive')}</span>
+    </div>
+    <h2>${escapeHtml(article.title)}</h2>
+    <p class="modal-date">${escapeHtml(article.date || 'Research note')}</p>
+    <p class="modal-summary">${escapeHtml(article.summary || '')}</p>
+    <section class="modal-section">
+      <h3>Deep dive</h3>
+      ${(article.deepDive || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
+    </section>
+    <section class="modal-section two-col-modal">
+      <div>
+        <h3>Blend ideas</h3>
+        <ul>${(article.blendIdeas || []).map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>
+      </div>
+      <div>
+        <h3>Safety / claims flags</h3>
+        <ul>${(article.safetyFlags || []).map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>
+      </div>
+    </section>
+    <section class="modal-section">
+      <h3>Citations + source trail</h3>
+      <div class="citation-list">
+        ${(article.citations || []).map((citation) => `
+          <a href="${escapeHtml(citation.url)}" target="_blank" rel="noreferrer">
+            <span>${escapeHtml(citation.source || 'Source')}</span>
+            <strong>${escapeHtml(citation.label)}</strong>
+          </a>
+        `).join('')}
+      </div>
+    </section>
+  `;
+  articleModal.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('modal-open');
+  articleModalCard.focus();
+}
+
+function closeArticle() {
+  if (!articleModal) return;
+  articleModal.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('modal-open');
+}
+
+document.addEventListener('click', (event) => {
+  const filterButton = event.target.closest('[data-article-filter]');
+  if (filterButton) {
+    document.querySelectorAll('[data-article-filter]').forEach((button) => button.classList.remove('active'));
+    filterButton.classList.add('active');
+    renderArticles(filterButton.dataset.articleFilter || 'all');
+    return;
+  }
+
+  const articleCard = event.target.closest('[data-article-slug]');
+  if (articleCard) {
+    openArticle(articleCard.dataset.articleSlug);
+    return;
+  }
+
+  if (event.target.closest('[data-close-article]')) closeArticle();
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') closeArticle();
+  if (event.key !== 'Enter' && event.key !== ' ') return;
+  const articleCard = event.target.closest?.('[data-article-slug]');
+  if (articleCard) {
+    event.preventDefault();
+    openArticle(articleCard.dataset.articleSlug);
+  }
+});
+
 async function loadResearchPulse() {
   try {
     const response = await fetch('./data/research.json', { cache: 'no-store' });
@@ -466,3 +598,4 @@ function renderResearchPulse(data) {
 }
 
 loadResearchPulse();
+loadArticles();

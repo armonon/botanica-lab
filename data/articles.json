@@ -1,0 +1,277 @@
+{
+  "lastUpdated": "2026-05-12T08:50:00-07:00",
+  "summary": "Clickable Botanica research posts with citations, source trails, and niche formulation angles. These are internal R&D articles, not medical advice or launch-ready claims.",
+  "topics": [
+    "Niche botanicals",
+    "Safety signals",
+    "Product formats",
+    "Regulatory strategy",
+    "Evidence watch"
+  ],
+  "articles": [
+    {
+      "slug": "kanna-social-presence-serotonergic-gate",
+      "title": "Kanna is the interesting social-presence herb — but it needs a serotonergic gate",
+      "category": "Niche botanicals",
+      "date": "2026-05-12",
+      "readTime": "6 min read",
+      "signal": "Sceletium tortuosum keeps showing up as a differentiated mood/social ingredient, but it should never be treated like a casual flavor botanical.",
+      "summary": "Kanna can give Botanica a more unusual emotional-tone lane than another ashwagandha gummy. The creative opening is social warmth, soft presence, and mood-coloring ritual; the safety gate is medication interaction, especially serotonergic drugs.",
+      "tags": ["kanna", "mood", "social ease", "serotonergic", "specialist review"],
+      "deepDive": [
+        "Kanna is interesting because it carries cultural history, distinct alkaloid chemistry, and a product story that feels less generic than the crowded adaptogen shelf. Botanica should treat it as a creative lead for internal concepts like Neural Ember, not as public copy promising euphoria or anxiety relief.",
+        "The best consumer-safe direction is not 'stronger than X' or any drug-comparison framing. It is a non-medical experiential lane: warm presence, emotional brightness, and social ritual. That still requires research review because the ingredient touches mood language and potential serotonergic interaction questions.",
+        "Near-term R&D question: can kanna be paired with gentler sensory layers — cacao, rose, saffron, theanine, citrus peel — so the product feels distinctive while reducing the temptation to overclaim intensity?"
+      ],
+      "blendIdeas": [
+        "Neural Ember lozenge: kanna + saffron + cacao + citrus peel, specialist-review-only.",
+        "Rose Current drops: kanna + rose + lemon balm, positioned internally as social-presence R&D.",
+        "Golden Ember gummy: saffron-led, kanna as optional experimental branch after safety review."
+      ],
+      "safetyFlags": [
+        "SSRI/SNRI/MAOI and psychiatric-medication review required.",
+        "No euphoria, intoxication, antidepressant, or drug-equivalence copy.",
+        "Pregnancy, bipolar/mania, and vulnerable-population review required."
+      ],
+      "citations": [
+        {
+          "label": "Gericke et al. 2014 — Sceletium tortuosum cognition RCT / Zembrin",
+          "source": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25389443/"
+        },
+        {
+          "label": "Siwek et al. 2023 — adaptogens and antidepressant adverse-event interactions",
+          "source": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37829299/"
+        }
+      ]
+    },
+    {
+      "slug": "blue-lotus-dream-ritual-quality-problem",
+      "title": "Blue lotus is a dream-ritual story — the real issue is identity, extract quality, and restraint",
+      "category": "Niche botanicals",
+      "date": "2026-05-12",
+      "readTime": "5 min read",
+      "signal": "Blue lotus has strong ritual/aesthetic pull, but the modern product market is messy enough that identity and safety have to be part of the concept from day one.",
+      "summary": "The dream-chocolate idea is compelling because it is a sensory product, not a hard pharmacology claim. Botanica should lean into ritual design, taste, and source transparency while keeping sleep/dream claims conservative.",
+      "tags": ["blue lotus", "dream ritual", "quality", "ceremonial", "sleep"],
+      "deepDive": [
+        "Blue lotus belongs in Botanica's niche-topic radar because it gives the site a mystical, product-design-friendly lane. But that is also why it can drift into unsupported claims fast. The safest framing is a ceremonial night ritual, not a sleep treatment or lucid-dream guarantee.",
+        "The most useful research angle is not only efficacy; it is identity testing and market quality. A 2023 market/safety assessment looked at authentic and commercial Nymphaea caerulea extracts and chemical composition, which is exactly the type of source Botanica should cite before taking the ingredient seriously.",
+        "The product idea gets better when the hero claim gets smaller: blue lotus + cacao + reishi + aromatic bitters could become a premium evening chocolate if the public copy stays sensory and ritual-led."
+      ],
+      "blendIdeas": [
+        "Lucid Grove chocolate: blue lotus + reishi + low-theobromine cacao + vanilla-cardamom sensory layer.",
+        "Moonbridge tea: blue lotus + lemon balm + chamomile, with mugwort only as a separate review-gated branch.",
+        "Dream Atlas drops: blue lotus + rose + orange peel, positioned as aromatic night ritual."
+      ],
+      "safetyFlags": [
+        "No guaranteed lucid dreaming, insomnia, sedation, or anxiety claims.",
+        "Identity testing and contaminant/adulteration review required.",
+        "Mugwort branches require pregnancy/allergy review and should remain separate until cleared."
+      ],
+      "citations": [
+        {
+          "label": "Dosoky et al. 2023 — chemical composition, market survey, and safety assessment of blue lotus extracts",
+          "source": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37894493/"
+        },
+        {
+          "label": "PubMed trail — Artemisia/mugwort pregnancy and safety literature search",
+          "source": "PubMed search",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Artemisia+vulgaris+mugwort+pregnancy+safety"
+        }
+      ]
+    },
+    {
+      "slug": "cistanche-desert-current-vitality-white-space",
+      "title": "Cistanche is a better vitality story than another generic testosterone stack",
+      "category": "Deep dive",
+      "date": "2026-05-12",
+      "readTime": "6 min read",
+      "signal": "The vitality shelf is crowded with tongkat, ashwagandha, maca, and shilajit. Cistanche offers a less familiar 'desert ginseng' story with traditional depth and product white space.",
+      "summary": "Cistanche is not launch-ready on its own, but it is an excellent niche deep-dive topic. It suggests a Botanica vitality lane built around desert botanicals, endurance language, and careful hormone/interaction review rather than aggressive male-performance claims.",
+      "tags": ["cistanche", "vitality", "desert botanicals", "endurance", "white space"],
+      "deepDive": [
+        "Cistanche deserticola shows up in traditional Chinese materia medica as Rou Cong Rong and has the 'desert ginseng' story that product teams dream about. The risk is overclaiming: Botanica should not jump from traditional tonic language to testosterone or disease claims.",
+        "The white-space formula is not just cistanche by itself. It is a desert-current theme: cistanche for the story, cordyceps for performance familiarity, schisandra for adaptogenic structure, and mineral/electrolyte texture for format realism.",
+        "This is a perfect deep-dive candidate because the evidence mix is uneven. It needs a research brief that separates traditional use, animal/mechanistic work, human data, quality markers like phenylethanoid glycosides, and hormone/medication flags."
+      ],
+      "blendIdeas": [
+        "Desert Current powder: cistanche + cordyceps + schisandra + mineral base.",
+        "Dry Heat tonic: cistanche + ginger + cacao + sea salt, vitality ritual concept.",
+        "Root Signal capsule: cistanche branch compared against tongkat/shilajit for safety and claims feasibility."
+      ],
+      "safetyFlags": [
+        "Hormone-sensitive conditions and medication review required.",
+        "Schisandra branch needs CYP/medication interaction review.",
+        "Avoid testosterone-treatment, erectile-dysfunction, infertility, or endurance-treatment claims."
+      ],
+      "citations": [
+        {
+          "label": "Wang et al. 2012 — Cistanche deserticola 'Desert ginseng' review",
+          "source": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23227786/"
+        },
+        {
+          "label": "PubMed trail — Schisandra CYP/interactions and adaptogen-drug interaction literature",
+          "source": "PubMed search",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Schisandra+chinensis+CYP+interaction+review"
+        }
+      ]
+    },
+    {
+      "slug": "berberine-metabolic-claim-trap",
+      "title": "Berberine is powerful — which is exactly why the metabolic lane is a claims trap",
+      "category": "Safety signals",
+      "date": "2026-05-12",
+      "readTime": "7 min read",
+      "signal": "Berberine has enough clinical gravity to be commercially tempting, but that same gravity pulls the product toward disease, medication, and glycemic-risk boundaries.",
+      "summary": "A berberine-led concept can be a serious internal R&D topic, especially for post-meal ritual and metabolic-support language. It should not become a diabetes, weight-loss, or medication-adjacent consumer promise without a formal review.",
+      "tags": ["berberine", "metabolic", "claims", "FDA", "FTC"],
+      "deepDive": [
+        "Berberine is the opposite of a decorative botanical. It has enough pharmacology and literature density that the product team should treat it as a high-compliance-risk ingredient, not just another bitter yellow capsule.",
+        "The smarter Botanica direction is sensory and structure/function conservative: bitter aperitif, post-meal ritual, metabolic rhythm support, and ingredient transparency. The dangerous direction is diabetes, glucose treatment, weight-loss treatment, or casual combination with medications.",
+        "This topic belongs in the clickable news feed because it teaches the Botanica standard: potency is not the enemy, but potency raises the evidence, labeling, safety, and interaction bar."
+      ],
+      "blendIdeas": [
+        "Bitter Aurora capsule: berberine botanical + Ceylon cinnamon + bitter melon + fenugreek, specialist-review-only.",
+        "Digestive Spark aperitif: gentian + artichoke + ginger, lower-risk alternative to a berberine-first product.",
+        "Golden Bitter drops: berberine branch held back until claims review, sensory bitters branch explored first."
+      ],
+      "safetyFlags": [
+        "Medication, hypoglycemia, pregnancy, liver, and disease-claim review required.",
+        "No diabetes-treatment, glucose-lowering, insulin, or weight-loss treatment copy.",
+        "FTC substantiation and FDA supplement-label review required before public use."
+      ],
+      "citations": [
+        {
+          "label": "Xie et al. 2022 — berberine glucose-lowering systematic review/meta-analysis",
+          "source": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36467075/"
+        },
+        {
+          "label": "FDA — Questions and Answers on Dietary Supplements",
+          "source": "FDA",
+          "url": "https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements"
+        },
+        {
+          "label": "FTC — Health Products Compliance Guidance",
+          "source": "FTC",
+          "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance"
+        }
+      ]
+    },
+    {
+      "slug": "kava-revival-high-impact-high-caution",
+      "title": "Kava is the high-impact calm story — but the liver/sedation gate has to be visible",
+      "category": "Safety signals",
+      "date": "2026-05-12",
+      "readTime": "6 min read",
+      "signal": "The calm category wants felt effects. Kava can deliver a differentiated ceremonial lane, but it cannot be treated as a casual bedtime herb.",
+      "summary": "Kava is commercially interesting because it feels distinct from theanine, magnesium, and ashwagandha. Botanica should keep kava concepts internal, visible about safety, and separated from alcohol/sedative-adjacent use cases.",
+      "tags": ["kava", "calm", "liver", "sedation", "ceremonial"],
+      "deepDive": [
+        "Kava solves a product problem: many calm supplements feel too subtle or generic. It also creates a compliance problem: the known safety conversation around liver injury, sedation, alcohol, medications, pregnancy, and source quality cannot be hidden in fine print.",
+        "Botanica's best role for kava is a specialist-review-only R&D lane. The site can explore why the category is interesting while refusing to publish consumer-ready use instructions or prescription-drug comparison language.",
+        "A safer product strategy may be to develop Soft Landing first — lemon balm, reishi, passionflower — while keeping Velvet Lantern as the high-impact internal benchmark."
+      ],
+      "blendIdeas": [
+        "Velvet Lantern tincture: chemotype-screened kava + passionflower + lemon balm, specialist-review-only.",
+        "Soft Landing tea: lemon balm + reishi + passionflower, lower-risk evening ritual.",
+        "Blue Orchard lozenge: damiana + rose + lemon balm, social ease without kava."
+      ],
+      "safetyFlags": [
+        "Liver, alcohol, sedative, medication, pregnancy, and source-quality review required.",
+        "No anxiety-treatment, Xanax-like, intoxication, or guaranteed relaxation claims.",
+        "Avoid combining with alcohol/sedatives in any public-facing concept."
+      ],
+      "citations": [
+        {
+          "label": "NCCIH — Kava: Usefulness and Safety",
+          "source": "NCCIH",
+          "url": "https://www.nccih.nih.gov/health/kava"
+        },
+        {
+          "label": "Stevinson et al. 2002 — systematic review of kava safety",
+          "source": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11994028/"
+        }
+      ]
+    },
+    {
+      "slug": "lion-mane-focus-format-gap",
+      "title": "Lion's mane needs better product design than 'brain mushroom capsule'",
+      "category": "Product formats",
+      "date": "2026-05-12",
+      "readTime": "5 min read",
+      "signal": "Lion's mane is familiar enough to sell but too often under-designed. The opening is format, sensory pairing, and honest evidence language.",
+      "summary": "The niche opportunity is not pretending lion's mane is an acute stimulant. It is building a calm-focus ritual around mushroom depth, theanine smoothness, cacao/coffee notes, and transparent evidence caveats.",
+      "tags": ["lion's mane", "focus", "mushroom", "format", "cognition"],
+      "deepDive": [
+        "Lion's mane has become a recognizable cognitive-support ingredient, which is good for consumer understanding and bad for differentiation. Botanica needs to make the product experience less generic.",
+        "The evidence language should stay conservative. A well-known 2009 trial studied Yamabushitake in older adults with mild cognitive impairment, but Botanica should not turn that into a public promise for healthy young users, ADHD, dementia, or immediate focus.",
+        "The better product angle is slow-burn cognitive ritual: lion's mane paired with theanine, cacao, rhodiola or cordyceps depending on the lane, and a delivery format that feels premium — latte powder, lozenge, or low-caffeine focus cocoa."
+      ],
+      "blendIdeas": [
+        "Dawn Circuit powder: lion's mane + theanine + rhodiola + cacao nib notes.",
+        "Mycelial Cocoa: lion's mane + reishi + cacao + cinnamon, focus ritual not stimulant copy.",
+        "Green Voltage branch: cordyceps + lion's mane + schisandra, daily performance powder."
+      ],
+      "safetyFlags": [
+        "Avoid ADHD, dementia, neurodegenerative-treatment, or guaranteed focus claims.",
+        "Quality-marker review required: fruiting body vs mycelium, beta-glucans, erinacines/hericenones claims.",
+        "Allergy and immunologic cautions should be reviewed for mushroom stacks."
+      ],
+      "citations": [
+        {
+          "label": "Mori et al. 2009 — Hericium erinaceus / Yamabushitake clinical trial",
+          "source": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18844328/"
+        },
+        {
+          "label": "PubMed trail — Hericium erinaceus cognitive function literature",
+          "source": "PubMed search",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Hericium+erinaceus+cognitive+function+systematic+review"
+        }
+      ]
+    },
+    {
+      "slug": "saffron-mood-anchor-cleanest-lane",
+      "title": "Saffron is still Botanica's cleanest mood anchor — warm, premium, and citeable",
+      "category": "Evidence watch",
+      "date": "2026-05-12",
+      "readTime": "5 min read",
+      "signal": "Among mood-oriented botanicals, saffron has a stronger citation base and a more premium product story than many trendier herbs.",
+      "summary": "Saffron gives Botanica a credible mood-tone starting point. The product direction should be warm emotional tone and everyday resilience language, not depression/anxiety treatment copy.",
+      "tags": ["saffron", "mood", "premium", "evidence", "gummy"],
+      "deepDive": [
+        "Saffron works as a Botanica anchor because the product story is elegant: premium botanical, recognizable color/flavor, and a clinical literature base that is easier to cite than many obscure herbs.",
+        "The 2026 GRADE-assessed systematic review/meta-analysis is useful, but it still points to cautious language. Internal R&D can discuss mood outcomes; public copy should talk about mood support, emotional tone, and ritual warmth without disorder-treatment claims.",
+        "The best formula strategy is saffron as the evidence anchor, then sensory and support layers: cacao for warmth, lemon balm for softness, rose/citrus for ritual, and optional kanna only as a separate specialist-review branch."
+      ],
+      "blendIdeas": [
+        "Golden Hour gummy: saffron + lemon balm + cacao + citrus peel.",
+        "Golden Ember lozenge: saffron + rose + cacao, with kanna branch held for review.",
+        "Sun Thread drops: saffron + lemon balm + orange blossom, premium mood ritual."
+      ],
+      "safetyFlags": [
+        "Avoid depression, anxiety-disorder, antidepressant, or guaranteed mood claims.",
+        "SSRI/SNRI, pregnancy, and vulnerable-population review required before launch.",
+        "Standardization markers and adulteration/quality checks matter for saffron."
+      ],
+      "citations": [
+        {
+          "label": "Mahmoudi et al. 2026 — saffron mood/anxiety/depression GRADE systematic review/meta-analysis",
+          "source": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41693488/"
+        },
+        {
+          "label": "FTC — Health Products Compliance Guidance",
+          "source": "FTC",
+          "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance"
+        }
+      ]
+    }
+  ]
+}
