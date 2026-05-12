@@ -189,6 +189,9 @@ const chatLog = document.querySelector('#chatLog');
 const chatForm = document.querySelector('#chatForm');
 const chatInput = document.querySelector('#chatInput');
 const quickPrompts = document.querySelectorAll('[data-prompt]');
+const chatStatus = document.querySelector('#chatStatus');
+const chatEndpoint = window.BOTANICA_CHAT_ENDPOINT || '/api/chat';
+const chatHistory = [];
 
 function escapeHtml(value) {
   return String(value)
@@ -279,27 +282,83 @@ function buildBotanicaReply(text) {
   `;
 }
 
-function appendChat(role, html) {
-  if (!chatLog) return;
+function appendChat(role, html, options = {}) {
+  if (!chatLog) return null;
   const message = document.createElement('div');
-  message.className = `chat-message ${role}`;
+  message.className = `chat-message ${role}${options.loading ? ' loading' : ''}`;
   message.innerHTML = html;
   chatLog.appendChild(message);
   chatLog.scrollTop = chatLog.scrollHeight;
+  return message;
 }
 
-function askBotanica(text) {
+function setChatStatus(text, mode = 'idle') {
+  if (!chatStatus) return;
+  chatStatus.textContent = text;
+  chatStatus.dataset.mode = mode;
+}
+
+function formatBotText(text) {
+  const safe = escapeHtml(text.trim());
+  const blocks = safe.split(/\n{2,}/).filter(Boolean);
+  return blocks.map((block) => {
+    const withBreaks = block.replace(/\n/g, '<br>');
+    return `<p>${withBreaks}</p>`;
+  }).join('');
+}
+
+async function callOpenEndedBot(clean) {
+  const messages = [...chatHistory.slice(-8), { role: 'user', content: clean }];
+  const response = await fetch(chatEndpoint, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ messages })
+  });
+
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(data.error || `Chat backend unavailable (${response.status})`);
+  if (!data.reply) throw new Error('Chat backend returned no reply');
+  return data.reply;
+}
+
+async function askBotanica(text) {
   const clean = text.trim();
   if (!clean) return;
+
   appendChat('user', `<p>${escapeHtml(clean)}</p>`);
-  appendChat('bot', buildBotanicaReply(clean));
+  chatHistory.push({ role: 'user', content: clean });
+  const pending = appendChat('bot', '<p><strong>Thinking like a formulator…</strong></p>', { loading: true });
+  setChatStatus('Creative AI online check…', 'thinking');
+
+  try {
+    const reply = await callOpenEndedBot(clean);
+    if (pending) {
+      pending.classList.remove('loading');
+      pending.innerHTML = formatBotText(reply);
+    } else {
+      appendChat('bot', formatBotText(reply));
+    }
+    chatHistory.push({ role: 'assistant', content: reply });
+    setChatStatus('Open-ended creative AI connected', 'online');
+  } catch (error) {
+    const fallback = `${buildBotanicaReply(clean)}<p class="chat-warning"><strong>Backend note:</strong> ${escapeHtml(error.message)}. I used the local safety-rules fallback; deploy the serverless API with OPENAI_API_KEY to unlock fully open-ended conversation.</p>`;
+    if (pending) {
+      pending.classList.remove('loading');
+      pending.innerHTML = fallback;
+    } else {
+      appendChat('bot', fallback);
+    }
+    chatHistory.push({ role: 'assistant', content: pending?.textContent || 'Local fallback blend idea generated.' });
+    setChatStatus('Local fallback active until backend deploy', 'fallback');
+  }
 }
 
 if (chatForm && chatInput) {
   chatForm.addEventListener('submit', (event) => {
     event.preventDefault();
-    askBotanica(chatInput.value);
+    const value = chatInput.value;
     chatInput.value = '';
+    askBotanica(value);
   });
 }
 
@@ -321,7 +380,8 @@ document.addEventListener('click', (event) => {
 });
 
 render();
-appendChat('bot', '<p><strong>Botanica Lab Bot online.</strong> Tell me the target state, format, and how adventurous you want to get. I’ll draft an internal R&D combination with review flags.</p>');
+appendChat('bot', '<p><strong>Botanica Lab Bot online.</strong> Tell me the target state, format, ingredients you like/avoid, and how adventurous you want to get. If the AI backend is deployed, I’ll answer open-ended; otherwise I’ll use the local safety-rules fallback.</p>');
+setChatStatus('Ready for creative blend ideation', 'idle');
 
 async function loadResearchPulse() {
   try {

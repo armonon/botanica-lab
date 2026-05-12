@@ -138,14 +138,15 @@
       <div class="section-heading wide">
         <p class="eyebrow">Talk to the formulator</p>
         <h2>Botanica Lab Bot</h2>
-        <p>A real interactive chat prototype for exploring internal R&D combinations. Ask for a target state, format, or potency level and it will draft a combination with safety review flags.</p>
+        <p>An open-ended creative formulation bot for exploring botanical blend concepts. Ask for a target state, format, flavor direction, ingredient theme, or potency level and it will brainstorm combinations with safety review flags.</p>
       </div>
       <div class="lab-shell">
         <div class="chat-panel">
+          <div class="chat-status" id="chatStatus" data-mode="idle">Checking chat mode…</div>
           <div class="chat-log" id="chatLog" aria-live="polite"></div>
           <form class="chat-form" id="chatForm">
             <label class="sr-only" for="chatInput">Ask Botanica Lab Bot</label>
-            <input id="chatInput" type="text" placeholder="Example: potent calm focus gummy with uncommon herbs" autocomplete="off" />
+            <input id="chatInput" type="text" placeholder="Example: make a potent calm-focus gummy with uncommon herbs" autocomplete="off" />
             <button type="submit">Generate</button>
           </form>
         </div>
@@ -155,7 +156,7 @@
           <button data-prompt="I want an evening social ease tincture that feels warm but stays safe.">Evening social ease</button>
           <button data-prompt="Create a dream ritual chocolate concept, adventurous but review-gated.">Dream ritual chocolate</button>
           <button data-prompt="Build a metabolic support concept, but keep compliance tight.">Metabolic support</button>
-          <p>Static prototype note: this uses Botanica's local formulation rules. A full LLM chat can be wired next through a secure backend/proxy so no API keys live in the browser.</p>
+          <p>Open-ended mode uses a secure serverless API when deployed. If the API is unavailable, the page falls back to the local safety-rules bot instead of exposing any API keys in the browser.</p>
         </aside>
       </div>
     </section>
