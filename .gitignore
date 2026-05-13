@@ -1,0 +1,7 @@
+# Local secrets / deployment env
+.env
+.env.*
+!.env.example
+.vercel
+.netlify
+node_modules
