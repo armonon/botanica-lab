@@ -1,132 +1,118 @@
 {
-  "lastUpdated": "2026-05-12T07:45:00-07:00",
+  "lastUpdated": "2026-05-13T06:15:00-07:00",
   "nextScan": "Daily at 06:15 PT, with source rotation",
-  "status": "Living research pulse broadened",
-  "summary": "Botanica now tracks a wider health/supplement/news radar: regulators, clinical evidence, traditional materia medica, retail trend coverage, ingredient suppliers, recalls, patents, social/product signals, and safety agencies. Remedy ideas remain formulation hypotheses only and are blocked from consumer-facing claims, dosing, and medical positioning until review clears them.",
+  "status": "Living research pulse updated",
+  "summary": "Fresh signals this run centered on adulteration risk, standing FTC/FDA claims boundaries, NCCIH safety flags, and two new 2026 PubMed evidence anchors. Remedy ideas remain internal R&D hypotheses only and stay blocked from consumer-facing claims, dosing, or medical positioning until claims review clears them.",
   "sourceCoverage": [
     {
-      "name": "FDA / FTC / NIH / NCCIH / ODS",
-      "type": "Regulatory + safety",
-      "use": "Claims substantiation, supplement labeling boundaries, warning letters, recalls, contraindications, and high-risk botanical flags."
+      "name": "FDA / FTC",
+      "type": "Regulatory + enforcement",
+      "use": "Claims substantiation, labeling boundaries, warning letters, recalls, adulteration alerts, and high-risk marketing patterns including implied claims and influencer spillover."
     },
     {
-      "name": "PubMed / clinical-trial literature",
+      "name": "NIH / NCCIH / ODS",
+      "type": "Safety",
+      "use": "Current federal fact sheets, cautions, contraindication themes, and interaction flags for priority botanicals."
+    },
+    {
+      "name": "PubMed / NCBI E-utilities",
       "type": "Evidence",
-      "use": "Systematic reviews, RCTs, mechanistic papers, extract standardization, population caveats, and evidence-quality grading."
+      "use": "New reviews, RCTs, mechanistic papers, extract standardization questions, and evidence-quality grading for Botanica concept herbs."
     },
     {
-      "name": "NutraIngredients / Nutraceuticals World / WholeFoods / SPINS-style trend coverage",
-      "type": "Industry news",
-      "use": "Market movement, format innovation, ingredient demand, supplier launches, retail category shifts, and white-space ideas."
+      "name": "SPINS-style retail + trade coverage",
+      "type": "Industry trend",
+      "use": "Ingredient momentum, dosage-format shifts, retail demand, and white-space ideas for calm-focus, mood-tone, vitality, and ritual products."
     },
     {
       "name": "Traditional herbal systems + ethnobotany",
       "type": "Creative source",
-      "use": "Unusual herb inspiration and synergy hypotheses, clearly labeled as traditional or exploratory until modern evidence catches up."
-    },
-    {
-      "name": "Consumer signals / product launches / social trend scans",
-      "type": "Culture radar",
-      "use": "What people are asking for: calm focus, sleep rituals, social ease, clean energy, libido/vitality, metabolic support, and ceremonial formats."
+      "use": "Non-clinical inspiration for unusual pairings, sensory direction, and delivery-format rituals, always separated from clinical evidence."
     }
   ],
   "signals": [
     {
-      "title": "FTC substantiation bar still rules every health-adjacent touchpoint",
+      "title": "FDA expanded its 2026 yellow-oleander supplement warning",
+      "source": "FDA safety alert",
+      "date": "2026-03-11",
+      "category": "Regulatory / adulteration",
+      "confidence": "High",
+      "takeaway": "FDA added another product to its warning about supplements sold as tejocote root or Brazil seed that were found to contain toxic yellow oleander instead of the labeled ingredient.",
+      "whyItMatters": "Botanica should treat identity testing and adulteration screening as a first-class gate, especially for folkloric weight-loss or cross-border botanical supply lanes.",
+      "url": "https://www.fda.gov/food/alerts-advisories-safety-information/fda-issues-warning-about-certain-supplements-substituted-toxic-yellow-oleander"
+    },
+    {
+      "title": "FTC's substantiation bar still applies across every health-adjacent channel",
       "source": "FTC Health Products Compliance Guidance",
       "date": "Standing guidance",
       "category": "Regulatory",
       "confidence": "High",
-      "takeaway": "Health-product claims need competent and reliable scientific evidence, and the standard applies across ads, packaging, digital content, social, PR, and influencer activity.",
-      "whyItMatters": "Botanica can be bold internally, but public copy has to be narrower than the formulation imagination; implied claims are just as risky as explicit ones.",
+      "takeaway": "FTC continues to frame health-product marketing around truthful, non-misleading claims backed by competent and reliable scientific evidence, including implied claims across ads, packaging, social, PR, and influencer activity.",
+      "whyItMatters": "Botanica can explore bold states internally, but public copy has to stay materially narrower than the R&D imagination and cannot rely on vibes, testimonials, or implication tricks.",
       "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance"
     },
     {
-      "title": "FDA keeps the supplement burden on the company, not premarket approval",
-      "source": "FDA Dietary Supplements / Questions and Answers on Dietary Supplements",
-      "date": "Current FDA guidance page",
+      "title": "FDA still places the supplement safety and labeling burden on the marketer",
+      "source": "FDA Dietary Supplements",
+      "date": "Current FDA page",
       "category": "Regulatory",
       "confidence": "High",
-      "takeaway": "Supplement firms are responsible for safety and labeling before marketing, while FDA continues post-market action through warning letters, recalls, and misbranding/adulteration enforcement.",
-      "whyItMatters": "Every experimental formula needs a launch gate: identity testing, contaminant testing, label review, and claims review before it becomes consumer-facing.",
+      "takeaway": "FDA reiterates that supplement manufacturers and distributors must ensure products are not adulterated or misbranded before marketing, with FDA acting post-market through enforcement, warnings, and recalls.",
+      "whyItMatters": "Every Botanica concept needs a launch gate covering identity, contaminants, claims, and label review before anything leaves internal R&D.",
       "url": "https://www.fda.gov/food/dietary-supplements"
     },
     {
-      "title": "NCCIH keeps ashwagandha in the opportunity-plus-risk bucket",
+      "title": "NCCIH keeps ashwagandha in the useful-but-not-carefree bucket",
       "source": "NCCIH Ashwagandha: Usefulness and Safety",
       "date": "Current NCCIH page",
       "category": "Safety",
       "confidence": "High",
-      "takeaway": "NCCIH notes short-term use only, limited long-term safety data, rare liver-injury reports, and caution around pregnancy, breastfeeding, thyroid/autoimmune issues, surgery, and multiple medication classes.",
-      "whyItMatters": "Ashwagandha can stay in R&D screening, but not as a carefree hero ingredient; every concept needs explicit interaction and exclusion flags.",
+      "takeaway": "NCCIH continues to flag rare liver-injury cases, pregnancy and breastfeeding exclusions, thyroid and autoimmune cautions, surgery concerns, and interactions with sedatives, anticonvulsants, immunosuppressants, diabetes medications, blood-pressure medications, and thyroid hormone.",
+      "whyItMatters": "Ashwagandha remains commercially attractive, but Botanica should never treat it as a frictionless hero ingredient and should keep explicit exclusion flags attached to every concept.",
       "url": "https://www.nccih.nih.gov/health/ashwagandha"
     },
     {
-      "title": "Kava still sits in the high-interest, high-caution corner",
+      "title": "Kava remains high-interest and high-caution",
       "source": "NCCIH Kava: Usefulness and Safety",
       "date": "Current NCCIH page",
       "category": "Safety",
       "confidence": "High",
-      "takeaway": "NCCIH continues to flag rare but serious liver-injury risk, plus sedation, alcohol/benzodiazepine overlap, pregnancy concerns, and quality/cultivar uncertainty around kava products.",
-      "whyItMatters": "Kava can make potent concepts feel real, but it should stay specialist-review-only and never drift into casual evening-calm copy.",
+      "takeaway": "NCCIH still highlights rare but serious liver-injury cases, sedation overlap with alcohol or benzodiazepines, and pregnancy or breastfeeding concerns, along with cultivar and quality uncertainty.",
+      "whyItMatters": "Kava can stay on the board for sensory-rich evening concepts, but only as specialist-review-only and never as a casual mainstream calm product.",
       "url": "https://www.nccih.nih.gov/health/kava"
     },
     {
-      "title": "Saffron remains Botanica's cleanest evidence-led mood lane",
+      "title": "Saffron remains Botanica's strongest evidence-led mood-tone lane",
       "source": "PubMed PMID 41693488",
-      "date": "2026",
+      "date": "2026-02-16",
       "category": "Botanical evidence",
       "confidence": "Medium-high",
-      "takeaway": "A 2026 GRADE-assessed meta-analysis covering 34 RCTs found moderate-certainty improvement on some self-reported mood and anxiety measures, with weaker clinician-rated separation.",
-      "whyItMatters": "Saffron still looks like the strongest lead for a warm mood-tone concept, but copy should stay away from disorder-treatment language and overclaiming.",
+      "takeaway": "A 2026 GRADE-assessed systematic review and meta-analysis of 34 randomized controlled trials keeps saffron near the top of the board for adult mood-related outcomes, while still requiring careful non-disease framing.",
+      "whyItMatters": "If Botanica wants one evidence-forward emotional-tone lead, saffron still looks cleaner and more defensible than many neighboring botanicals.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41693488/"
     },
     {
-      "title": "Adaptogen demand is real, but the literature is still heterogeneous",
-      "source": "PubMed PMID 41644067 and PMID 41906501",
+      "title": "2026 evidence still supports adaptogen interest, but not lazy certainty",
+      "source": "PubMed PMID 41906501 and PMID 41644067",
       "date": "2026",
       "category": "Botanical evidence",
       "confidence": "Medium",
-      "takeaway": "New 2026 reviews keep ashwagandha and rhodiola relevant for stress-resilience and psychometric outcomes, but they also highlight short study duration, heterogeneity, and the need for better long-term trials.",
-      "whyItMatters": "These ingredients fit internal concepting, yet they should be positioned as cautious resilience candidates rather than certainty-loaded performance promises.",
+      "takeaway": "New 2026 reviews keep ashwagandha and rhodiola relevant for stress-resilience and psychometric outcomes, but emphasize heterogeneity, short study duration, and the need for cleaner long-term data.",
+      "whyItMatters": "This supports continued internal concepting for calm-focus and resilience products, but not inflated certainty, stimulant analog framing, or underplayed safety language.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41906501/"
     },
     {
-      "title": "Stress-management retail is tilting toward experiential calm",
-      "source": "NutraIngredients-USA citing SPINS market data",
-      "date": "2024 market snapshot, strategically relevant",
+      "title": "SPINS-style trade coverage still points to ashwagandha and alternative formats as live retail signals",
+      "source": "Nutritional Outlook / SPINS coverage",
+      "date": "2026-02-10",
       "category": "Industry trend",
       "confidence": "Medium",
-      "takeaway": "SPINS data cited by NutraIngredients-USA showed stress-management supplements up 8.2% year over year, while ashwagandha remained large but declined, and theanine and kava posted faster growth.",
-      "whyItMatters": "The commercial opening appears to be felt calm and smoother focus; Botanica should explore differentiated low-claim formats rather than pile into undifferentiated ashwagandha products.",
-      "url": "https://www.nutraingredients-usa.com/Article/2024/09/17/What-s-trending-in-stress-management-supplements-2024"
-    },
-    {
-      "title": "The next interesting product lane is format + ritual, not just another capsule",
-      "source": "Botanica source radar synthesis",
-      "date": "2026-05-12",
-      "category": "Product signal",
-      "confidence": "Medium",
-      "takeaway": "Lozenges, chocolate, bitters, tinctures, tea rituals, gummies, and powders make botanical experiences more memorable than generic capsule stacks.",
-      "whyItMatters": "This supports Armon's request for more interesting combinations: the differentiator can be delivery format, sensory ritual, and safety-reviewed synergy—not only stronger ingredients.",
-      "url": ""
+      "takeaway": "Trade coverage of SPINS' 2026 ingredients-to-watch list keeps ashwagandha prominent while related coverage points to broader adoption across alternative dosage forms and adjacent mind-body positioning.",
+      "whyItMatters": "The white space is not another generic capsule; it's differentiated format, sensory identity, and tighter safety-reviewed positioning around felt experience rather than loud claims.",
+      "url": "https://www.nutritionaloutlook.com/view/2026-ingredients-to-watch-top-ingredients-and-trends-driving-nutraceutical-product-development"
     }
   ],
   "remedies": [
-    {
-      "name": "Neural Ember",
-      "lane": "Mood / social presence",
-      "leadHerbs": [
-        "Kanna",
-        "Saffron",
-        "L-theanine",
-        "Cacao"
-      ],
-      "promise": "A bolder social-warmth R&D concept with a strict serotonergic interaction gate.",
-      "evidence": "Saffron is the stronger evidence anchor; kanna is the experimental differentiator and needs a focused safety review.",
-      "risk": "SSRI/SNRI/MAOI, psychiatric, pregnancy, and drug-equivalence language review required before any public use.",
-      "status": "Experimental, specialist-review"
-    },
     {
       "name": "Golden Hour",
       "lane": "Mood / emotional tone",
@@ -135,9 +121,9 @@
         "Lemon balm",
         "Cacao polyphenols"
       ],
-      "promise": "Warm, bright mood-support positioning for internal R&D only, without disorder language.",
-      "evidence": "Still the strongest evidence-led Botanica lane because saffron now has a larger 2026 RCT meta-analysis base than most peers in this board.",
-      "risk": "Flag antidepressant-adjacent framing, pregnancy review, and interaction screening; no disease, diagnosis, or dosing language.",
+      "promise": "An internal R&D concept for warm, brighter emotional tone with a cleaner evidence anchor than most mood-lane botanicals.",
+      "evidence": "Saffron remains the strongest evidence-led herb on this board thanks to the 2026 meta-analysis base; the supporting herbs are there to shape feel and ritual, not to carry claims.",
+      "risk": "Keep antidepressant-adjacent framing, pregnancy screening, and interaction review in scope; no disorder, diagnosis, or dosing language.",
       "status": "Priority research candidate"
     },
     {
@@ -148,23 +134,10 @@
         "Lion's mane",
         "Rhodiola"
       ],
-      "promise": "A smoother-focus concept built around experiential steadiness rather than stimulant mimicry.",
-      "evidence": "Market momentum favors theanine-led calm-focus formats, while lion's mane and rhodiola remain plausible but mixed-evidence support layers.",
-      "risk": "Avoid ADHD, stimulant, or prescription-drug analog framing; keep rhodiola optional until interaction and population-risk review is tighter.",
+      "promise": "A steadier focus concept aimed at clear-headed momentum rather than stimulant mimicry.",
+      "evidence": "The adaptogen literature keeps rhodiola plausible but not certain, while lion's mane remains mixed and theanine helps hold the experience in a more conservative lane.",
+      "risk": "Avoid ADHD, stimulant, prescription-drug analog, or productivity-overpromise language; keep rhodiola interaction review attached.",
       "status": "Good MVP concept"
-    },
-    {
-      "name": "Desert Current",
-      "lane": "Vitality / endurance",
-      "leadHerbs": [
-        "Cistanche",
-        "Cordyceps",
-        "Schisandra"
-      ],
-      "promise": "A less generic vitality lane with a traditional-system edge and modern performance framing.",
-      "evidence": "More exploratory than proven; needs ingredient-by-ingredient evidence grading and interaction review.",
-      "risk": "Hormone, blood pressure, CYP, medication, and performance-claim gates required.",
-      "status": "New adventurous candidate"
     },
     {
       "name": "Soft Landing",
@@ -174,24 +147,37 @@
         "Reishi",
         "Passionflower"
       ],
-      "promise": "A lower-risk evening ritual lane with sensory calm potential and cleaner compliance posture than kava-first concepts.",
-      "evidence": "Evidence is mixed and ingredient-specific, but the direction is commercially aligned and easier to keep inside conservative claims boundaries.",
-      "risk": "Sedation, pregnancy, and interaction screening still required; no sleep-cure promises or next-day-performance guarantees.",
+      "promise": "A lower-risk evening ritual lane with more room for sensory format differentiation than a kava-first concept.",
+      "evidence": "Evidence is ingredient-specific and moderate at best, but the compliance posture is cleaner and the experience model is easier to frame conservatively.",
+      "risk": "Sedation, pregnancy, and medication-interaction screening still apply; no sleep-cure or guaranteed next-day-performance language.",
       "status": "Safer near-term exploration"
     },
     {
-      "name": "Bitter Aurora",
-      "lane": "Metabolic / post-meal ritual",
+      "name": "Neural Ember",
+      "lane": "Mood / social presence",
       "leadHerbs": [
-        "Berberine botanical",
-        "Cinnamon",
-        "Bitter melon",
-        "Fenugreek"
+        "Kanna",
+        "Saffron",
+        "L-theanine",
+        "Cacao"
       ],
-      "promise": "A potent internal concept for metabolic-support positioning, kept away from diabetes or weight-loss treatment claims.",
-      "evidence": "Commercially powerful and clinically interesting, but claims and medication risks are high.",
-      "risk": "Hypoglycemia, medication, pregnancy, liver, and disease-claim review required.",
-      "status": "Potent, high-compliance risk"
+      "promise": "A bolder social-warmth hypothesis that could feel distinct if the serotonergic risk profile is handled with discipline.",
+      "evidence": "Saffron is the evidence anchor; kanna is the differentiator and remains the weaker, more experimental link.",
+      "risk": "Serotonergic, psychiatric, pregnancy, and interaction review required; specialist-review-only until a cleaner evidence and safety memo exists.",
+      "status": "Experimental, specialist-review"
+    },
+    {
+      "name": "Desert Current",
+      "lane": "Vitality / endurance",
+      "leadHerbs": [
+        "Cistanche",
+        "Cordyceps",
+        "Schisandra"
+      ],
+      "promise": "A less-generic vitality lane that leans on traditional-system intrigue and broad performance-adjacent positioning without stimulant energy tropes.",
+      "evidence": "Still exploratory and more interesting than proven; it needs tighter ingredient-by-ingredient evidence grading before it graduates.",
+      "risk": "Hormone, blood-pressure, CYP, medication, and performance-claim review required.",
+      "status": "Adventurous candidate"
     },
     {
       "name": "Velvet Lantern",
@@ -201,20 +187,19 @@
         "Passionflower",
         "Lemon balm"
       ],
-      "promise": "High felt-intensity concept with clear ritual appeal, kept strictly internal for now.",
-      "evidence": "Market signals show renewed interest, but NCCIH and historical safety literature keep the risk profile elevated.",
-      "risk": "Liver-injury concern, sedative/alcohol interaction risk, pregnancy exclusion, and sourcing-quality questions make this specialist-review-only.",
+      "promise": "A high-intensity ritual concept with obvious felt appeal, kept strictly in the internal sandbox for now.",
+      "evidence": "The demand signal is real, but NCCIH safety language keeps the risk profile elevated and sourcing questions unresolved.",
+      "risk": "Liver-risk, sedative/alcohol overlap, pregnancy exclusion, and quality-control review make this specialist-review-only.",
       "status": "High-impact, high-caution"
     }
   ],
   "watchlist": [
-    "FDA warning letters, recalls, and ingredient actions touching supplements and botanical positioning",
-    "FTC health-claims substantiation and implied-claims enforcement across ads, UGC, influencer copy, and product pages",
-    "NCCIH and NIH ODS safety pages for ashwagandha, kava, berberine, mushrooms, saffron, and higher-risk botanicals",
-    "PubMed systematic reviews, RCTs, and mechanistic papers for saffron, rhodiola, lion's mane, lemon balm, reishi, kanna, cistanche, schisandra, cordyceps, berberine, and adaptogen stacks",
-    "Retail and supplier trend data for calm-focus, social ease, sleep ritual, metabolic, libido/vitality, and ceremonial formats",
-    "Traditional herbal materia medica and ethnobotany references, labeled separately from clinical evidence",
-    "Consumer/product trend scans across gummies, tinctures, bitters, lozenges, chocolates, teas, and powders",
-    "Any liver, thyroid, sedative, pregnancy, CYP, serotonergic, glycemic, psychiatric, anticoagulant, or hormone-interaction literature that changes exclusion flags"
+    "FDA warning letters, recalls, import alerts, and adulteration notices touching botanical supplements, especially identity-substitution cases",
+    "FTC health-claims substantiation and implied-claims enforcement across product pages, ads, PR, UGC, affiliate copy, and influencer content",
+    "NCCIH / NIH / ODS safety updates for ashwagandha, kava, saffron, berberine, mushrooms, and other higher-risk Botanica candidates",
+    "PubMed reviews, RCTs, and mechanistic papers for saffron, rhodiola, lion's mane, lemon balm, reishi, kanna, cistanche, schisandra, cordyceps, and berberine lanes",
+    "Retail and supplier trend coverage for calm-focus, mood-tone, vitality, ritual-calm, metabolic-support, and ceremonial-format products",
+    "Delivery-format signals across lozenges, chocolates, bitters, tinctures, teas, powders, gummies, and hybrid beverage shots",
+    "Any new liver, thyroid, sedative, pregnancy, serotonergic, glycemic, psychiatric, anticoagulant, CYP, or hormone-interaction literature that changes exclusion flags"
   ]
 }
