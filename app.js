@@ -183,6 +183,51 @@ const categoryKeywords = {
 
 const safetyWords = ['pregnant', 'pregnancy', 'breastfeeding', 'ssri', 'snri', 'maoi', 'blood thinner', 'warfarin', 'sedative', 'benzo', 'liver', 'thyroid', 'autoimmune', 'bipolar', 'diabetes', 'medication', 'prescription'];
 
+const tinctureProfiles = {
+  Calm: {
+    name: 'Velvet Lantern',
+    color: 'linear-gradient(180deg, rgba(240,189,100,.9), rgba(173,106,83,.92))',
+    herbs: ['Lemon balm', 'Passionflower', 'Rose petal'],
+    copy: 'A warm evening downshift tincture concept with lemon balm, passionflower, and a soft floral-citrus finish.',
+    caution: 'Review sedation, pregnancy, liver, and medication-interaction language before public use.'
+  },
+  Focus: {
+    name: 'Dawn Circuit',
+    color: 'linear-gradient(180deg, rgba(159,214,255,.9), rgba(88,124,58,.94))',
+    herbs: ['Rhodiola', 'L-theanine', 'Lion’s mane'],
+    copy: 'A clean task-initiation tincture concept aimed at steady attention without heavy caffeine or jittery positioning.',
+    caution: 'Review stimulant sensitivity, bipolar/mania language, and avoid ADHD-treatment claims.'
+  },
+  Sleep: {
+    name: 'Moonbridge',
+    color: 'linear-gradient(180deg, rgba(108,92,170,.9), rgba(31,39,70,.96))',
+    herbs: ['Blue lotus', 'Lemon balm', 'Chamomile'],
+    copy: 'A dreamy night ritual tincture concept built around sensory unwind, softness, and dream-recall atmosphere.',
+    caution: 'No insomnia-treatment, sedative, or lucid-dream guarantee claims; review pregnancy and allergy flags.'
+  },
+  Mood: {
+    name: 'Golden Hour',
+    color: 'linear-gradient(180deg, rgba(255,210,112,.92), rgba(204,112,89,.94))',
+    herbs: ['Saffron', 'Cacao', 'Lemon balm'],
+    copy: 'A bright daily ritual tincture concept for emotional warmth and everyday resilience language.',
+    caution: 'Review SSRI/SNRI interaction language and avoid antidepressant-equivalence claims.'
+  },
+  Digestive: {
+    name: 'Digestive Spark',
+    color: 'linear-gradient(180deg, rgba(125,95,45,.92), rgba(58,76,42,.96))',
+    herbs: ['Gentian', 'Ginger', 'Orange peel'],
+    copy: 'A bitter aperitif-style tincture concept that makes the ritual visible through taste, aroma, and pre-meal ceremony.',
+    caution: 'Review gallbladder, reflux, pregnancy, and digestive-disease claim boundaries.'
+  }
+};
+
+const tinctureState = {
+  intent: 'Calm',
+  base: 'Alcohol-free glycerite',
+  flavor: 'Floral citrus',
+  intensity: 2
+};
+
 const grid = document.querySelector('#blendGrid');
 const filters = document.querySelectorAll('.filter');
 const chatLog = document.querySelector('#chatLog');
@@ -190,6 +235,15 @@ const chatForm = document.querySelector('#chatForm');
 const chatInput = document.querySelector('#chatInput');
 const quickPrompts = document.querySelectorAll('[data-prompt]');
 const chatStatus = document.querySelector('#chatStatus');
+const builderOptions = document.querySelectorAll('[data-builder]');
+const intensityRange = document.querySelector('#intensityRange');
+const vialLiquid = document.querySelector('#vialLiquid');
+const vialLabelMood = document.querySelector('#vialLabelMood');
+const vialLabelName = document.querySelector('#vialLabelName');
+const tinctureName = document.querySelector('#tinctureName');
+const tinctureDescription = document.querySelector('#tinctureDescription');
+const tinctureChips = document.querySelector('#tinctureChips');
+const askBuilderBot = document.querySelector('#askBuilderBot');
 const articleSummary = document.querySelector('#articleSummary');
 const articleControls = document.querySelector('#articleControls');
 const articleGrid = document.querySelector('#articleGrid');
@@ -314,6 +368,63 @@ function formatBotText(text) {
   }).join('');
 }
 
+function intensityLabel(value = tinctureState.intensity) {
+  return value === 1 ? 'Gentle' : value === 3 ? 'Adventurous' : 'Noticeable';
+}
+
+function currentTinctureProfile() {
+  return tinctureProfiles[tinctureState.intent] || tinctureProfiles.Calm;
+}
+
+function builderPrompt() {
+  const profile = currentTinctureProfile();
+  return `Help me refine a custom tincture concept for Botanica.\n\nWorking name: ${profile.name} Tincture\nTarget vibe: ${tinctureState.intent}\nBase: ${tinctureState.base}\nFlavor finish: ${tinctureState.flavor}\nIntensity: ${intensityLabel()}\nStarter botanicals: ${profile.herbs.join(', ')}\nSafety review flag: ${profile.caution}\n\nMake this feel like a premium visual tincture-building experience: suggest the ritual, sensory profile, formula architecture, label direction, and review gates. No dosing, disease claims, or launch-ready medical copy.`;
+}
+
+function updateTinctureBuilder() {
+  const profile = currentTinctureProfile();
+  const height = `${52 + tinctureState.intensity * 8}%`;
+
+  if (vialLiquid) {
+    vialLiquid.style.background = profile.color;
+    vialLiquid.style.height = height;
+  }
+  if (vialLabelMood) vialLabelMood.textContent = tinctureState.intent;
+  if (vialLabelName) vialLabelName.textContent = profile.name;
+  if (tinctureName) tinctureName.textContent = `${profile.name} Tincture`;
+  if (tinctureDescription) {
+    tinctureDescription.textContent = `${profile.copy} Built as a ${tinctureState.base.toLowerCase()} with a ${tinctureState.flavor.toLowerCase()} finish and ${intensityLabel().toLowerCase()} intensity.`;
+  }
+  if (tinctureChips) {
+    const chips = [tinctureState.intent, tinctureState.base, tinctureState.flavor, intensityLabel(), ...profile.herbs];
+    tinctureChips.innerHTML = chips.map((chip) => `<span>${escapeHtml(chip)}</span>`).join('');
+  }
+}
+
+builderOptions.forEach((button) => {
+  button.addEventListener('click', () => {
+    const key = button.dataset.builder;
+    const value = button.dataset.value;
+    if (!key || !value) return;
+    tinctureState[key] = value;
+    document.querySelectorAll(`[data-builder="${key}"]`).forEach((option) => option.classList.remove('active'));
+    button.classList.add('active');
+    updateTinctureBuilder();
+  });
+});
+
+intensityRange?.addEventListener('input', () => {
+  tinctureState.intensity = Number(intensityRange.value) || 2;
+  updateTinctureBuilder();
+});
+
+askBuilderBot?.addEventListener('click', () => {
+  const prompt = builderPrompt();
+  if (chatInput) chatInput.value = prompt;
+  document.querySelector('#chatForm')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  askBotanica(prompt);
+});
+
 async function callOpenEndedBot(clean) {
   const messages = [...chatHistory.slice(-8), { role: 'user', content: clean }];
   const response = await fetch(chatEndpoint, {
@@ -387,6 +498,7 @@ document.addEventListener('click', (event) => {
 });
 
 render();
+updateTinctureBuilder();
 appendChat('bot', '<p><strong>Botanica Lab Bot online.</strong> Tell me the target state, format, ingredients you like/avoid, and how adventurous you want to get. If the AI backend is deployed, I’ll answer open-ended; otherwise I’ll use the local safety-rules fallback.</p>');
 setChatStatus('Ready for creative blend ideation', 'idle');
 
