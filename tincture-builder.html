@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Build your own Botanica tincture concept with visual guidance and Lab Bot refinement." />
+  <title>Build Your Tincture — Botanica</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="hero compact-hero" id="top">
+    <nav class="nav">
+      <a class="brand" href="./index.html" aria-label="Back to Botanica home"><span class="brand-mark">✦</span> Botanica</a>
+      <div class="nav-links">
+        <a href="./index.html">Main lab</a>
+        <a href="#tincture-builder">Tincture builder</a>
+        <a href="#lab-chat">Lab Bot</a>
+        <a href="./index.html#safety">Safety</a>
+      </div>
+    </nav>
+
+    <section class="hero-grid tincture-hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Interactive formulation studio</p>
+        <h1>Build your own tincture.</h1>
+        <p class="lede">Pick the vibe, base, flavor finish, and intensity. Botanica turns the choices into a visual tincture concept, then Lab Bot helps refine the ritual, sensory profile, formula architecture, label direction, and review gates.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#tincture-builder">Start building</a>
+          <a class="button ghost" href="./index.html">Back to main site</a>
+        </div>
+      </div>
+      <aside class="status-card" aria-label="Tincture builder status">
+        <div class="orb"></div>
+        <p class="status-label">Builder mode</p>
+        <h2>Visual R&D only</h2>
+        <ul>
+          <li>No dosing or medical advice</li>
+          <li>No disease-treatment claims</li>
+          <li>Every concept stays review-gated</li>
+          <li>Lab Bot can refine the draft safely</li>
+        </ul>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="section lab tincture-page-lab" id="tincture-builder" aria-label="Build your own tincture with Botanica Lab Bot">
+      <div class="section-heading wide">
+        <p class="eyebrow">Build your tincture</p>
+        <h2>Choose the experience first.</h2>
+        <p>This is the visual tincture studio: a guided concept builder for exploring botanical directions before anything becomes consumer-facing copy.</p>
+      </div>
+
+      <div class="tincture-builder" aria-label="Tincture builder controls and preview">
+        <div class="builder-stage">
+          <div class="vial-scene" aria-hidden="true">
+            <div class="vial-glow"></div>
+            <div class="vial">
+              <div class="vial-cap"></div>
+              <div class="vial-neck"></div>
+              <div class="vial-body">
+                <div class="vial-liquid" id="vialLiquid"></div>
+                <div class="vial-herbs" id="vialHerbs"></div>
+                <div class="vial-sparkles"></div>
+              </div>
+              <div class="vial-label">
+                <span id="vialLabelMood">Calm</span>
+                <strong id="vialLabelName">Velvet Lantern</strong>
+              </div>
+            </div>
+          </div>
+          <div class="builder-summary">
+            <p class="eyebrow">Current draft</p>
+            <h3 id="tinctureName">Velvet Lantern Tincture</h3>
+            <p id="tinctureDescription">A warm evening downshift tincture concept with lemon balm, passionflower, and a floral-citrus finish.</p>
+            <div class="tincture-chips" id="tinctureChips"></div>
+            <p class="builder-note">Visual R&D only: no dosing, medical claims, or launch copy until safety review.</p>
+          </div>
+        </div>
+
+        <div class="builder-controls" aria-label="Tincture builder controls">
+          <fieldset>
+            <legend>1. Pick the vibe</legend>
+            <button class="builder-option active" type="button" data-builder="intent" data-value="Calm">Calm</button>
+            <button class="builder-option" type="button" data-builder="intent" data-value="Focus">Focus</button>
+            <button class="builder-option" type="button" data-builder="intent" data-value="Sleep">Sleep</button>
+            <button class="builder-option" type="button" data-builder="intent" data-value="Mood">Mood</button>
+            <button class="builder-option" type="button" data-builder="intent" data-value="Digestive">Digestive</button>
+          </fieldset>
+          <fieldset>
+            <legend>2. Choose a base</legend>
+            <button class="builder-option active" type="button" data-builder="base" data-value="Alcohol-free glycerite">Alcohol-free glycerite</button>
+            <button class="builder-option" type="button" data-builder="base" data-value="Classic tincture">Classic tincture</button>
+            <button class="builder-option" type="button" data-builder="base" data-value="Honey elixir">Honey elixir</button>
+          </fieldset>
+          <fieldset>
+            <legend>3. Flavor finish</legend>
+            <button class="builder-option active" type="button" data-builder="flavor" data-value="Floral citrus">Floral citrus</button>
+            <button class="builder-option" type="button" data-builder="flavor" data-value="Dark berry">Dark berry</button>
+            <button class="builder-option" type="button" data-builder="flavor" data-value="Spiced cacao">Spiced cacao</button>
+            <button class="builder-option" type="button" data-builder="flavor" data-value="Bitter botanical">Bitter botanical</button>
+          </fieldset>
+          <fieldset>
+            <legend>4. Intensity</legend>
+            <input id="intensityRange" type="range" min="1" max="3" value="2" aria-label="Tincture intensity" />
+            <div class="range-labels"><span>Gentle</span><span>Noticeable</span><span>Adventurous</span></div>
+          </fieldset>
+          <button class="builder-bot-button" id="askBuilderBot" type="button">Ask Lab Bot to refine this tincture →</button>
+        </div>
+      </div>
+
+      <div class="lab-shell" id="lab-chat">
+        <div class="chat-panel">
+          <div class="chat-status" id="chatStatus" data-mode="idle">Checking chat mode…</div>
+          <div class="chat-log" id="chatLog" aria-live="polite"></div>
+          <form class="chat-form" id="chatForm">
+            <label class="sr-only" for="chatInput">Ask Botanica Lab Bot</label>
+            <input id="chatInput" type="text" placeholder="Ask Lab Bot to refine your tincture concept…" autocomplete="off" />
+            <button type="submit">Generate</button>
+          </form>
+        </div>
+        <aside class="prompt-card">
+          <h3>Builder tips</h3>
+          <button data-prompt="Help me make a premium calm tincture with a floral citrus finish, no dosing, keep safety review clear.">Premium calm tincture</button>
+          <button data-prompt="Turn this into a beautiful product ritual and label direction, with safe claims language only.">Ritual + label direction</button>
+          <button data-prompt="Give me three safer variations of this tincture concept with different flavor profiles and review gates.">Three safe variations</button>
+          <p>Use the builder first, then send the draft to Lab Bot for a richer formulation concept.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Botanica tincture concepts are internal R&D drafts. They do not provide medical advice, diagnosis, treatment, or dosing instructions.</p>
+    <a href="./index.html">Back to Botanica ↑</a>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

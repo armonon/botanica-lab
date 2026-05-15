@@ -17,7 +17,7 @@
         <a href="#articles">Deep dives</a>
         <a href="#remedies">Remedy atlas</a>
         <a href="#blends">Blend ideas</a>
-        <a href="#tincture-builder">Tincture builder</a>
+        <a href="./tincture-builder.html" target="_blank" rel="noreferrer">Tincture builder</a>
         <a href="#lab">Lab chat</a>
         <a href="#safety">Safety</a>
         <a href="#roadmap">Roadmap</a>
@@ -152,64 +152,6 @@
         <p class="eyebrow">Talk to the formulator</p>
         <h2>Botanica Lab Bot</h2>
         <p>An open-ended creative formulation bot for exploring botanical blend concepts. Ask for a target state, format, flavor direction, ingredient theme, or potency level and it will brainstorm combinations with safety review flags.</p>
-      </div>
-
-      <div class="tincture-builder" id="tincture-builder" aria-label="Build your own tincture with Botanica Lab Bot">
-        <div class="builder-stage">
-          <div class="vial-scene" aria-hidden="true">
-            <div class="vial-glow"></div>
-            <div class="vial">
-              <div class="vial-cap"></div>
-              <div class="vial-neck"></div>
-              <div class="vial-body">
-                <div class="vial-liquid" id="vialLiquid"></div>
-                <div class="vial-herbs" id="vialHerbs"></div>
-                <div class="vial-sparkles"></div>
-              </div>
-              <div class="vial-label">
-                <span id="vialLabelMood">Calm</span>
-                <strong id="vialLabelName">Velvet Lantern</strong>
-              </div>
-            </div>
-          </div>
-          <div class="builder-summary">
-            <p class="eyebrow">Build your tincture</p>
-            <h3 id="tinctureName">Velvet Lantern Tincture</h3>
-            <p id="tinctureDescription">A warm evening downshift tincture concept with lemon balm, passionflower, and a floral-citrus finish.</p>
-            <div class="tincture-chips" id="tinctureChips"></div>
-            <p class="builder-note">Visual R&D only: no dosing, medical claims, or launch copy until safety review.</p>
-          </div>
-        </div>
-
-        <div class="builder-controls" aria-label="Tincture builder controls">
-          <fieldset>
-            <legend>1. Pick the vibe</legend>
-            <button class="builder-option active" type="button" data-builder="intent" data-value="Calm">Calm</button>
-            <button class="builder-option" type="button" data-builder="intent" data-value="Focus">Focus</button>
-            <button class="builder-option" type="button" data-builder="intent" data-value="Sleep">Sleep</button>
-            <button class="builder-option" type="button" data-builder="intent" data-value="Mood">Mood</button>
-            <button class="builder-option" type="button" data-builder="intent" data-value="Digestive">Digestive</button>
-          </fieldset>
-          <fieldset>
-            <legend>2. Choose a base</legend>
-            <button class="builder-option active" type="button" data-builder="base" data-value="Alcohol-free glycerite">Alcohol-free glycerite</button>
-            <button class="builder-option" type="button" data-builder="base" data-value="Classic tincture">Classic tincture</button>
-            <button class="builder-option" type="button" data-builder="base" data-value="Honey elixir">Honey elixir</button>
-          </fieldset>
-          <fieldset>
-            <legend>3. Flavor finish</legend>
-            <button class="builder-option active" type="button" data-builder="flavor" data-value="Floral citrus">Floral citrus</button>
-            <button class="builder-option" type="button" data-builder="flavor" data-value="Dark berry">Dark berry</button>
-            <button class="builder-option" type="button" data-builder="flavor" data-value="Spiced cacao">Spiced cacao</button>
-            <button class="builder-option" type="button" data-builder="flavor" data-value="Bitter botanical">Bitter botanical</button>
-          </fieldset>
-          <fieldset>
-            <legend>4. Intensity</legend>
-            <input id="intensityRange" type="range" min="1" max="3" value="2" aria-label="Tincture intensity" />
-            <div class="range-labels"><span>Gentle</span><span>Noticeable</span><span>Adventurous</span></div>
-          </fieldset>
-          <button class="builder-bot-button" id="askBuilderBot" type="button">Ask Lab Bot to refine this tincture →</button>
-        </div>
       </div>
 
       <div class="lab-shell">
