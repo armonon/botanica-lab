@@ -195,6 +195,7 @@ const articleControls = document.querySelector('#articleControls');
 const articleGrid = document.querySelector('#articleGrid');
 const articleModal = document.querySelector('#articleModal');
 const articleModalCard = document.querySelector('#articleModalCard');
+const botPopupClose = document.querySelector('#botPopupClose');
 const chatEndpoint = window.BOTANICA_CHAT_ENDPOINT || '/api/chat';
 const chatHistory = [];
 let articleData = [];
@@ -487,6 +488,12 @@ function closeArticle() {
   document.body.classList.remove('modal-open');
 }
 
+function closeBotPopup() {
+  document.body.classList.remove('bot-popup-open');
+}
+
+botPopupClose?.addEventListener('click', closeBotPopup);
+
 document.addEventListener('click', (event) => {
   const filterButton = event.target.closest('[data-article-filter]');
   if (filterButton) {
@@ -506,7 +513,10 @@ document.addEventListener('click', (event) => {
 });
 
 document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') closeArticle();
+  if (event.key === 'Escape') {
+    closeArticle();
+    closeBotPopup();
+  }
   if (event.key !== 'Enter' && event.key !== ' ') return;
   const articleCard = event.target.closest?.('[data-article-slug]');
   if (articleCard) {

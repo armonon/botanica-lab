@@ -7,7 +7,7 @@
   <title>Botanica — Botanical R&D Lab</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
-<body>
+<body class="bot-popup-open">
   <header class="hero" id="top">
     <nav class="nav">
       <a class="brand" href="#top" aria-label="Botanica home"><span class="brand-mark">✦</span> Botanica</a>
@@ -145,7 +145,8 @@
       <div class="blend-grid" id="blendGrid"></div>
     </section>
 
-    <section class="section lab" id="lab">
+    <section class="section lab" id="lab" aria-label="Botanica Lab Bot popup">
+      <button class="bot-popup-close" id="botPopupClose" type="button" aria-label="Close Botanica Lab Bot popup">×</button>
       <div class="section-heading wide">
         <p class="eyebrow">Talk to the formulator</p>
         <h2>Botanica Lab Bot</h2>
