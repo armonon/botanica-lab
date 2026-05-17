@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-05-16T06:17:00-07:00",
+  "lastUpdated": "2026-05-17T06:15:00-07:00",
   "nextScan": "Daily at 06:15 PT, with source rotation",
   "status": "Living research pulse updated",
-  "summary": "This run did not surface a brand-new federal doctrine, but it did surface two meaningful operating signals: supply-side stress is becoming a quality and adulteration risk amplifier for botanicals, and women's-health positioning is staying hot while trust, targeting, and format discipline matter more. The core FDA ingredient-scope, adulteration, FTC substantiation, and NCCIH safety guardrails still define the safe Botanica lane, so remedy ideas remain internal R&D hypotheses only and stay blocked from consumer-facing claims, medical positioning, or dosing language until claims review clears them.",
+  "summary": "This pulse surfaced one genuinely useful formulation signal: lemon balm looks stronger as a lower-friction near-term lane when the preparation is chemically characterized, while the federal guardrails did not loosen at all. FDA ingredient-scope questions, adulteration alerts, FTC substantiation standards, and NCCIH interaction-first safety flags still define the safe Botanica sandbox. The best current remedy ideas stay internal-R&D-only, avoid disease or prescription analog framing, and carry explicit risk flags when they touch mood, sleep, hormone, liver, pregnancy, sedative, thyroid, glycemic, or medication-interaction territory.",
   "sourceCoverage": [
     {
       "name": "FDA / FTC",
       "type": "Regulatory + enforcement",
-      "use": "Claims substantiation, labeling boundaries, warning letters, recalls, adulteration alerts, ingredient-scope developments, and high-risk marketing patterns including implied claims, influencer conduct, and AI-copy spillover."
+      "use": "Claims substantiation, labeling boundaries, warning letters, recalls, adulteration alerts, ingredient-scope developments, and high-risk marketing patterns including implied claims, influencer conduct, testimonials, reviews, and AI-copy spillover."
     },
     {
       "name": "NIH / NCCIH / ODS",
@@ -37,8 +37,8 @@
       "date": "2026-03-03 / 2026-03-16",
       "category": "Regulatory / premarket",
       "confidence": "High",
-      "takeaway": "FDA's 2026 public meeting on dietary supplement innovation focused directly on the scope of dietary ingredients, including edge cases around dietary substances, new production methods, proteins, enzymes, and microbials.",
-      "whyItMatters": "Botanica should treat unusual extracts, novel processing methods, and category-edge ingredients as legal-screening questions at concept stage, not late packaging questions.",
+      "takeaway": "FDA's 2026 public meeting on dietary supplement innovation stayed focused on the meaning of dietary ingredient categories, including dietary substances, new production methods, proteins, enzymes, and microbials.",
+      "whyItMatters": "Botanica should treat unusual extracts, fermentation-derived ingredients, and category-edge inputs as legal-screening questions at concept stage, not packaging-stage cleanup.",
       "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-announces-public-meeting-dietary-supplement-innovation-and-scope-dietary-ingredients"
     },
     {
@@ -52,24 +52,34 @@
       "url": "https://www.fda.gov/food/alerts-advisories-safety-information/fda-issues-warning-about-certain-supplements-substituted-toxic-yellow-oleander"
     },
     {
-      "title": "FTC's health-claims bar still extends across packaging, social, press, influencers, and reviews",
-      "source": "FTC Health Products Compliance Guidance + endorsements guidance",
+      "title": "FTC's health-claims bar still reaches implied claims, testimonials, and creator ecosystems",
+      "source": "FTC Health Products Compliance Guidance",
       "date": "Current standing guidance",
       "category": "Regulatory / advertising",
       "confidence": "High",
-      "takeaway": "FTC continues to frame health-product marketing around truthful, non-misleading claims backed by competent and reliable scientific evidence, and it applies that standard broadly across labels, websites, digital content, influencer campaigns, testimonials, and review practices.",
-      "whyItMatters": "Botanica can keep bold state-language inside internal R&D, but public copy, visual cues, endorsements, and creator scripts all need a materially narrower compliance envelope.",
+      "takeaway": "FTC continues to frame health-product marketing around truthful, non-misleading claims backed by competent and reliable scientific evidence, including claims conveyed by implication and in surrounding ad context rather than just explicit label text.",
+      "whyItMatters": "Botanica can keep bold state-language inside internal R&D, but public copy, visuals, testimonials, reviews, influencer scripts, and AI-polished claims all need a materially narrower compliance envelope.",
       "url": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance"
     },
     {
       "title": "NCCIH still keeps ashwagandha and kava in an interaction-first bucket",
       "source": "NCCIH herbs-at-a-glance pages",
-      "date": "Current NCCIH pages",
+      "date": "Current NCCIH pages accessed 2026-05-17",
       "category": "Safety",
       "confidence": "High",
-      "takeaway": "NCCIH continues to flag ashwagandha for rare liver-injury reports plus pregnancy, thyroid, autoimmune, surgery, sedative, anticonvulsant, blood-pressure, diabetes, and thyroid-medication concerns, while kava remains tied to liver-risk and sedative or alcohol overlap cautions.",
+      "takeaway": "NCCIH continues to flag ashwagandha for rare liver-injury reports plus pregnancy, surgery, autoimmune, thyroid, sedative, anticonvulsant, blood-pressure, diabetes, and thyroid-medication concerns, while kava remains tied to liver-risk and sedative or alcohol overlap cautions.",
       "whyItMatters": "Hero-herb selection should favor lower-friction safety profiles where possible, and any formula touching adaptogens or kava-adjacent calm lanes needs explicit exclusion flags from day one.",
       "url": "https://www.nccih.nih.gov/health/ashwagandha"
+    },
+    {
+      "title": "A 2026 lemon-balm review supports the lane, but only with standardized prep discipline",
+      "source": "PubMed PMID 41754356",
+      "date": "2026-02-19",
+      "category": "Botanical evidence / formulation",
+      "confidence": "Medium-high",
+      "takeaway": "A 2026 integrative review of Melissa officinalis says the most consistent clinical signals are symptom-oriented stress/anxiety and sleep-related outcomes, while emphasizing that findings are strongly preparation-dependent and need chemically characterized, standardized products.",
+      "whyItMatters": "This makes lemon balm more attractive as a near-term Botanica anchor than flashier higher-risk herbs, but it rewards extract discipline and conservative positioning instead of vague whole-herb storytelling.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41754356/"
     },
     {
       "title": "A new PubMed review keeps saffron interesting but removes any carefree safety aura",
@@ -87,22 +97,25 @@
       "date": "2026-05",
       "category": "Industry trend / sourcing",
       "confidence": "Medium",
-      "takeaway": "Current trade coverage says tariffs, climate uncertainty, and labor shortages are making import timing, domestic substitution, and pricing more fragile, while creating more temptation for adulteration or filler use when buyers resist higher costs.",
+      "takeaway": "Current trade coverage says tariffs, climate uncertainty, and labor shortages are making import timing, domestic substitution, and pricing more fragile, while increasing pressure on inventory strategy and quality control.",
       "whyItMatters": "Botanica's white space is not just novel herbs; it is formulas whose sourcing, identity controls, and substitution risk are manageable before the concept ever reaches a label.",
       "url": "https://www.nutraceuticalsworld.com/tariffs-botanical-sourcing-and-climate-pressure/"
-    },
-    {
-      "title": "Women's-health whitespace remains attractive, but trust and precision matter more than hype",
-      "source": "Nutraceuticals World / Women In Nutraceuticals 2026 State of the Industry",
-      "date": "2026-05",
-      "category": "Industry trend / market direction",
-      "confidence": "Medium",
-      "takeaway": "Trade commentary continues to highlight momentum in women's-health research, targeted formulations, and differentiated delivery formats, while warning that AI-generated content and generic positioning increase noise rather than trust.",
-      "whyItMatters": "Botanica can explore women-focused lanes, but the better wedge is sharper population and format logic with conservative claims discipline, not broad hormonal promises.",
-      "url": "https://www.nutraceuticalsworld.com/trust-transparency-and-diversity-shaping-the-future-of-womens-health-innovation/"
     }
   ],
   "remedies": [
+    {
+      "name": "Soft Landing",
+      "lane": "Evening unwind / ritual calm",
+      "leadHerbs": [
+        "Lemon balm",
+        "Reishi",
+        "Passionflower"
+      ],
+      "promise": "An internal R&D concept for lower-friction evening ritual support with more room for sensory and format differentiation than a kava-first concept.",
+      "evidence": "The 2026 lemon-balm review strengthens this lane, especially when preparation quality and chemical characterization are part of the concept rather than an afterthought.",
+      "risk": "Sedation, pregnancy, and medication-interaction screening still apply; no sleep-cure, anxiety-treatment, or guaranteed next-day-performance language.",
+      "status": "Best near-term exploration"
+    },
     {
       "name": "Golden Hour",
       "lane": "Mood / emotional tone",
@@ -111,9 +124,9 @@
         "Lemon balm",
         "Cacao polyphenols"
       ],
-      "promise": "An internal R&D concept for warmer emotional tone with one of the cleaner evidence anchors on the current board.",
-      "evidence": "The 2026 saffron safety review keeps this lane attractive but makes the framing more disciplined: promising, not frictionless.",
-      "risk": "Keep antidepressant-adjacent framing, pregnancy screening, interaction review, and higher-intensity-use caution in scope; no disorder, diagnosis, or dosing language.",
+      "promise": "An internal R&D concept for warmer emotional tone built around one of the cleaner current mood-oriented evidence anchors.",
+      "evidence": "The 2026 saffron safety review keeps the lane interesting, but the safer thesis is disciplined formulation and cautious framing, not broad emotional-health promises.",
+      "risk": "Keep antidepressant-adjacent framing, pregnancy screening, interaction review, and prolonged-use caution in scope; no disorder, diagnosis, or dosing language.",
       "status": "Priority research candidate"
     },
     {
@@ -125,22 +138,9 @@
         "Rhodiola"
       ],
       "promise": "A steadier focus concept aimed at clear-headed momentum rather than stimulant mimicry.",
-      "evidence": "Still plausible as an MVP lane, but extract-standardization and evidence-heterogeneity questions remain strong enough that positioning has to stay narrow.",
-      "risk": "Avoid ADHD, stimulant, prescription-drug analog, or productivity-overpromise language; keep rhodiola interaction review and evidence-grading attached.",
-      "status": "Good MVP concept"
-    },
-    {
-      "name": "Soft Landing",
-      "lane": "Evening unwind / ritual calm",
-      "leadHerbs": [
-        "Lemon balm",
-        "Reishi",
-        "Passionflower"
-      ],
-      "promise": "A lower-friction evening ritual lane with more room for sensory differentiation than a kava-first concept.",
-      "evidence": "Evidence is moderate and ingredient-specific, but the compliance posture is cleaner than more aggressive sedative-style concepts.",
-      "risk": "Sedation, pregnancy, and medication-interaction screening still apply; no sleep-cure or guaranteed next-day-performance language.",
-      "status": "Safer near-term exploration"
+      "evidence": "Still plausible, but the recent adaptogen review reinforces that evidence remains heterogeneous and extract-specific, so this lane should stay narrower than mood or ritual concepts.",
+      "risk": "Avoid ADHD, stimulant, prescription-drug analog, burnout-fix, or productivity-overpromise language; keep rhodiola interaction review attached.",
+      "status": "Promising but less clean than Soft Landing"
     },
     {
       "name": "Rose Current",
@@ -150,23 +150,10 @@
         "Saffron",
         "Rose"
       ],
-      "promise": "A trend-aware internal concept that leans into the still-expanding women's-botanical lane while making trust, traceability, and format logic part of the formula thesis.",
-      "evidence": "Market momentum is real, but the evidence stack and product-language boundaries remain weaker and more claims-sensitive than Botanica's mood or ritual lanes.",
+      "promise": "A trend-aware internal concept that treats trust, traceability, and format logic as part of the formula thesis rather than relying on generic women's-health positioning.",
+      "evidence": "Market interest remains strong, but the evidence stack and marketing boundaries are still more claims-sensitive than Botanica's lower-friction mood and ritual lanes.",
       "risk": "Hormone, pregnancy, fertility, endocrine, and medication-review questions are mandatory; specialist review required before any consumer-adjacent exploration.",
       "status": "High-interest, claims-sensitive"
-    },
-    {
-      "name": "Desert Current",
-      "lane": "Vitality / endurance",
-      "leadHerbs": [
-        "Cistanche",
-        "Cordyceps",
-        "Schisandra"
-      ],
-      "promise": "A less-generic vitality lane that leans on traditional intrigue and broad performance-adjacent positioning without stimulant tropes.",
-      "evidence": "Still exploratory and more interesting than proven; it needs tighter ingredient-by-ingredient evidence grading before it graduates.",
-      "risk": "Hormone, blood-pressure, CYP, medication, and performance-claim review required.",
-      "status": "Adventurous candidate"
     },
     {
       "name": "Velvet Lantern",
@@ -187,7 +174,7 @@
     "FDA warning letters, recalls, import alerts, and adulteration notices touching botanical supplements, especially identity-substitution cases",
     "FTC health-claims substantiation and implied-claims enforcement across product pages, ads, PR, UGC, affiliate copy, influencers, testimonials, reviews, and AI-assisted marketing",
     "NCCIH / NIH / ODS safety updates for ashwagandha, kava, saffron, berberine, mushrooms, shatavari, and other higher-risk Botanica candidates",
-    "PubMed reviews, RCTs, and safety papers for saffron, rhodiola, lion's mane, lemon balm, reishi, shatavari, cistanche, schisandra, cordyceps, and berberine lanes",
+    "PubMed reviews, RCTs, and safety papers for saffron, rhodiola, lemon balm, lion's mane, reishi, shatavari, cistanche, schisandra, cordyceps, and berberine lanes",
     "Sourcing-pressure signals across tariffs, climate disruption, labor shortages, adulteration risk, traceability expectations, and domestic-substitution constraints for key botanicals",
     "Retail and supplier trend coverage for mood-tone, calm-focus, women's-botanical, vitality, ritual-calm, digestive-support, and ceremonial-format products",
     "Delivery-format signals across lozenges, chocolates, bitters, tinctures, teas, powders, gummies, beverages, and shot hybrids, especially where format creates drug-like expectations",
