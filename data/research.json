@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-19T06:15:00-07:00",
+  "lastUpdated": "2026-05-21T06:15:00-07:00",
   "nextScan": "Daily at 06:15 PT, with source rotation",
   "status": "Living research pulse updated",
-  "summary": "This pulse sharpened Botanica's near-term map more than it changed it: FDA's May 2026 recall over undeclared kratom alkaloids keeps adulteration and hidden-active screening front and center, FTC's 2026 TruHeight case keeps deceptive efficacy claims and incentivized reviews squarely in the risk lane, FDA's dietary-ingredient scope work still signals extra scrutiny for category-edge extracts and new production methods, and trade coverage says documentation, identity testing, and online-claims discipline are becoming market standards rather than back-office chores. The practical read-through remains: favor chemically characterized lower-friction herbs, treat COA and identity verification as part of formulation design, and keep any public-facing positioning materially narrower than internal R&D language.",
+  "summary": "This pulse did not flip Botanica's map, but it sharpened the guardrails. FDA's May 2026 Better Weather Fix recall keeps hidden-actives and adulteration risk front and center, FTC's reviews rule plus the April 2026 TruHeight case make efficacy-copy and incentivized-review discipline an immediate marketing constraint, FDA's dietary-ingredient scope work still points to extra scrutiny for category-edge extracts and newer production methods, and current NCCIH safety language keeps ashwagandha and kava in a higher-friction bucket. The practical R&D read-through remains: favor chemically characterized lower-friction herbs, design sourcing and assay logic into the concept early, and keep public-facing positioning materially narrower than internal formulation language.",
   "sourceCoverage": [
     {
       "name": "FDA / FTC",
@@ -17,12 +17,12 @@
     {
       "name": "PubMed / NCBI E-utilities",
       "type": "Evidence",
-      "use": "Recent reviews, RCTs, safety papers, and extract-standardization or quality-control questions for Botanica concept herbs and target categories."
+      "use": "Recent reviews, market-quality papers, safety signals, and extract-standardization questions for Botanica concept herbs and target categories."
     },
     {
       "name": "Trade + supplier coverage",
       "type": "Industry trend",
-      "use": "Ingredient momentum, tariff and sourcing pressure, documentation expectations, identity-testing norms, online-claims scrutiny, and dosage-format shifts that change where product white space really sits."
+      "use": "Ingredient momentum, tariff and sourcing pressure, documentation expectations, identity-testing norms, online-claims scrutiny, and delivery-format shifts that change where product white space really sits."
     },
     {
       "name": "Traditional herbal systems + ethnobotany",
@@ -32,73 +32,73 @@
   ],
   "signals": [
     {
-      "title": "FDA posted a live reminder that hidden-drug adulteration is still a supplement-market risk",
+      "title": "FDA's Better Weather Fix recall keeps hidden-active screening in the must-have column",
       "source": "FDA recall notice",
       "date": "2026-05-11",
       "category": "Regulatory / adulteration",
       "confidence": "High",
-      "takeaway": "FDA published XD Investments LLC's recall of Better Weather Fix Elixir after agency analysis found undeclared mitragynine and mitragynine pseudoindoxyl in the product.",
-      "whyItMatters": "Botanica should treat identity testing, hidden-active screening, and vendor documentation as first-class formulation constraints, especially anywhere a product format could drift toward stimulant, euphoric, or fast-acting expectations.",
+      "takeaway": "FDA posted XD Investments LLC's recall of Better Weather Fix Elixir after agency analysis found undeclared mitragynine and mitragynine pseudoindoxyl in the product.",
+      "whyItMatters": "Botanica should treat identity testing, hidden-active screening, and vendor documentation as first-class formulation constraints, especially anywhere the format or positioning could invite stimulant, euphoric, or fast-acting expectations.",
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/xd-investments-llc-recalls-better-weather-fix-elixir-products-due-undeclared-mitragynine-and"
     },
     {
-      "title": "FTC kept supplement efficacy claims and manipulated reviews in the enforcement spotlight",
-      "source": "FTC enforcement",
-      "date": "2026-04-13",
+      "title": "FTC's review rule and the 2026 TruHeight case keep supplement marketing under full-funnel scrutiny",
+      "source": "FTC guidance + enforcement",
+      "date": "2026-04-13 / accessed 2026-05-21",
       "category": "Regulatory / advertising",
       "confidence": "High",
-      "takeaway": "FTC's TruHeight case says supplement marketers cannot lean on deceptive effectiveness claims or employee or incentivized five-star reviews to create the impression of substantiated results.",
-      "whyItMatters": "For Botanica, compliance risk is not just the label copy. Review programs, testimonials, creator scripts, before-after framing, and AI-polished ad copy need the same evidence discipline as the product brief itself.",
+      "takeaway": "FTC's consumer reviews rule remains active, and the April 2026 TruHeight matter shows the agency still cares about deceptive effectiveness claims plus employee or incentivized five-star reviews that create a false impression of substantiated results.",
+      "whyItMatters": "For Botanica, compliance risk is not just label copy. Review programs, testimonials, creator scripts, AI-polished landing pages, and before-after style persuasion all need the same evidence discipline as the formula brief.",
       "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/242-3093-truheight-vanilla-chip-llc-matter"
     },
     {
-      "title": "FDA still has category-edge dietary ingredients and new production methods under active scope review",
+      "title": "FDA is still signaling extra scrutiny for category-edge ingredients and newer production methods",
       "source": "FDA constituent update",
       "date": "2026-03-03 / 2026-03-16",
       "category": "Regulatory / premarket",
       "confidence": "High",
-      "takeaway": "FDA's 2026 public meeting on dietary supplement innovation stayed focused on the meaning of dietary ingredient categories, including dietary substances, new production methods, proteins, enzymes, and microbials.",
+      "takeaway": "FDA's March 2026 public meeting on dietary supplement innovation stayed focused on the meaning of dietary ingredient categories, including dietary substances, new methodologies to produce existing ingredients, proteins, enzymes, and microbials.",
       "whyItMatters": "Botanica should treat unusual extracts, fermentation-derived inputs, and category-edge actives as legal-screening questions at concept stage, not packaging-stage cleanup.",
       "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-announces-public-meeting-dietary-supplement-innovation-and-scope-dietary-ingredients"
     },
     {
-      "title": "NCCIH still keeps ashwagandha and kava in an interaction-first bucket",
-      "source": "NCCIH herbs-at-a-glance pages",
-      "date": "Current NCCIH pages accessed 2026-05-19",
+      "title": "Current NCCIH language keeps ashwagandha and kava in a higher-friction safety bucket",
+      "source": "NCCIH Herbs at a Glance pages",
+      "date": "accessed 2026-05-21",
       "category": "Safety",
       "confidence": "High",
       "takeaway": "NCCIH continues to flag ashwagandha for rare liver-injury reports plus pregnancy, surgery, autoimmune, thyroid, sedative, anticonvulsant, blood-pressure, diabetes, and thyroid-medication concerns, while kava remains tied to liver-risk and sedative or alcohol overlap cautions.",
-      "whyItMatters": "Hero-herb selection should favor lower-friction safety profiles where possible, and any formula touching adaptogens or kava-adjacent calm lanes needs explicit exclusion flags from day one.",
+      "whyItMatters": "Hero-herb selection should favor lower-friction safety profiles where possible, and any calm, stress, or ritual lane that leans on ashwagandha or kava needs explicit exclusion flags from day one.",
       "url": "https://www.nccih.nih.gov/health/ashwagandha"
     },
     {
-      "title": "A 2026 lemon-balm review still looks like the cleanest near-term formulation lane",
+      "title": "A 2026 lemon-balm integrative review still looks like Botanica's cleanest near-term hero-herb lane",
       "source": "PubMed PMID 41754356",
       "date": "2026-02-19",
       "category": "Botanical evidence / formulation",
       "confidence": "Medium-high",
-      "takeaway": "The 2026 integrative review of Melissa officinalis says the most consistent clinical signals are symptom-oriented stress and sleep-related outcomes, while emphasizing that findings are strongly preparation-dependent and need chemically characterized, standardized products.",
-      "whyItMatters": "This keeps lemon balm more attractive as a near-term Botanica anchor than flashier higher-risk herbs, but it rewards extract discipline and conservative positioning instead of vague whole-herb storytelling.",
+      "takeaway": "The 2026 integrative review of Melissa officinalis keeps lemon balm attractive for calm, stress-tone, and sleep-adjacent formulation work, while emphasizing that conclusions remain preparation-dependent and work best when products are chemically characterized.",
+      "whyItMatters": "This keeps lemon balm more attractive as a near-term Botanica anchor than flashier higher-friction herbs, but it rewards extract discipline and conservative positioning instead of vague whole-herb storytelling.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41754356/"
     },
     {
-      "title": "A 2026 rhodiola market-quality paper makes spec discipline part of the concept, not a vendor afterthought",
+      "title": "The 2026 rhodiola market-quality paper keeps assay specs and authenticity checks non-optional",
       "source": "PubMed PMID 41544018 / PLOS One",
-      "date": "2026-01-16",
+      "date": "2026",
       "category": "Botanical quality / formulation",
       "confidence": "Medium-high",
-      "takeaway": "A 2026 U.S.-market analysis of Rhodiola rosea supplements found wide variation in rosavin and salidroside levels, one likely undisclosed synthetic salidroside addition, and trace metals across tested products, with two samples needing closer arsenic follow-up.",
+      "takeaway": "A 2026 U.S.-market analysis of Rhodiola rosea supplements found wide variation in rosavin and salidroside levels, one likely undisclosed synthetic salidroside addition, and additional heavy-metal and pesticide-screening questions across tested products.",
       "whyItMatters": "Any rhodiola-containing Botanica concept should start with assay specifications, authenticity verification, and contamination review before creative positioning.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41544018/"
     },
     {
-      "title": "Trade coverage says documentation, identity testing, and online-claims discipline are becoming competitive necessities",
+      "title": "2026 trade coverage says documentation, transparency, and online-claims control are becoming competitive requirements",
       "source": "Nutraceuticals World 2026 industry outlook",
-      "date": "2026 series accessed 2026-05-19",
+      "date": "2026 series accessed 2026-05-21",
       "category": "Industry trend / compliance",
       "confidence": "Medium-high",
-      "takeaway": "2026 supplement-industry outlook coverage repeatedly points to transparency, documentation, risk management, identity testing, and tighter scrutiny of online claims as core operating expectations, with tariffs and sourcing volatility adding pressure.",
-      "whyItMatters": "For Botanica, the differentiator is not just a clever herb stack. It is the ability to pair a distinctive formula concept with defensible sourcing, assay logic, and restrained digital storytelling from the start.",
+      "takeaway": "Current 2026 industry outlook coverage repeatedly points to transparency, documentation, risk management, identity testing, tariff pressure, and tighter scrutiny of online claims as defining operating expectations rather than back-office nice-to-haves.",
+      "whyItMatters": "For Botanica, the edge is not just a clever herb stack. It is the ability to pair a distinctive formula concept with defensible sourcing, assay logic, and restrained digital storytelling from the start.",
       "url": "https://www.nutraceuticalsworld.com/2026-state-of-the-dietary-supplement-industry/"
     }
   ],
@@ -117,19 +117,6 @@
       "status": "Best near-term exploration"
     },
     {
-      "name": "Golden Hour",
-      "lane": "Mood / emotional tone",
-      "leadHerbs": [
-        "Saffron",
-        "Lemon balm",
-        "Cacao polyphenols"
-      ],
-      "promise": "An internal R&D concept for warmer emotional tone built around a relatively strong mood-oriented ingredient, but framed conservatively and documented carefully.",
-      "evidence": "The saffron human-safety literature still supports interest, but the stronger thesis is standardized sourcing plus narrow positioning rather than broad emotional-health promises.",
-      "risk": "Keep pregnancy screening, interaction review, and prolonged-use caution in scope; no disorder, diagnosis, serotonergic-overclaim, or dosing language.",
-      "status": "Priority research candidate"
-    },
-    {
       "name": "Clear Current",
       "lane": "Calm focus / task-initiation",
       "leadHerbs": [
@@ -138,9 +125,22 @@
         "Lemon balm"
       ],
       "promise": "A steadier focus concept that avoids leaning on a higher-friction adaptogen as the hero ingredient and fits a documentation-first product story.",
-      "evidence": "This lane still looks easier to spec and position safely than a rhodiola-led concept, while leaving room for noticeable experiential design and flexible delivery formats.",
+      "evidence": "This lane still looks easier to spec and position safely than an ashwagandha- or rhodiola-led concept, while leaving room for noticeable experiential design and flexible delivery formats.",
       "risk": "Avoid ADHD, stimulant, prescription-drug analog, burnout-fix, or productivity-overpromise language; mushroom-allergy and interaction screening still apply.",
-      "status": "Cleaner than a rhodiola-first build"
+      "status": "Cleaner than an adaptogen-first build"
+    },
+    {
+      "name": "Golden Hour",
+      "lane": "Mood / emotional tone",
+      "leadHerbs": [
+        "Saffron",
+        "Lemon balm",
+        "Cacao polyphenols"
+      ],
+      "promise": "An internal R&D concept for warmer emotional tone built around a relatively strong mood-oriented ingredient, but framed conservatively and documented carefully.",
+      "evidence": "The saffron human literature still supports interest, but the lane works best when standardized sourcing, adverse-event review, and narrow positioning are treated as part of the concept rather than marketing cleanup.",
+      "risk": "Keep pregnancy screening, interaction review, and prolonged-use caution in scope; no disorder, diagnosis, serotonergic-overclaim, or dosing language.",
+      "status": "Priority research candidate"
     },
     {
       "name": "Dawn Circuit",
@@ -172,7 +172,7 @@
   "watchlist": [
     "FDA ingredient-scope, NDI, GRAS-adjacent, and directory developments that change how novel extracts, microbials, proteins, peptides, or manufacturing methods should be screened",
     "FDA warning letters, recalls, import alerts, and adulteration notices touching botanical supplements, especially identity-substitution or undeclared-active cases",
-    "FTC health-claims substantiation and implied-claims enforcement across product pages, ads, PR, UGC, affiliate copy, influencers, testimonials, ratings, reviews, and AI-assisted marketing",
+    "FTC health-claims substantiation and consumer-review enforcement across product pages, ads, PR, UGC, affiliate copy, influencers, testimonials, ratings, reviews, and AI-assisted marketing",
     "NCCIH / NIH / ODS safety updates for ashwagandha, kava, saffron, berberine, mushrooms, shatavari, and other higher-risk Botanica candidates",
     "PubMed reviews, RCTs, and safety papers for saffron, rhodiola, lemon balm, lion's mane, reishi, shatavari, cistanche, schisandra, cordyceps, and berberine lanes",
     "Analytical quality-control signals around marker-compound variance, synthetic spiking, pesticide residues, heavy metals, adulteration, and traceability expectations for hero herbs",
