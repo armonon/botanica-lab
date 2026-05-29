@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-05-28T06:18:00-07:00",
+  "lastUpdated": "2026-05-29T06:17:00-07:00",
   "nextScan": "Daily at 06:15 PT, with source rotation",
   "status": "Living research pulse updated",
-  "summary": "This pulse got a little sharper. FDA's current recall stream reinforces that Botanica's risk surface is not just claims; it is also contamination, adulteration, and channel hygiene. A February moringa recall tied to possible Salmonella contamination and May sexual-enhancement recalls tied to undeclared drugs both argue for building identity, contaminant, and channel-screening logic into concept briefs early. FTC is still treating claims, reviews, incentives, and bot-shaped social proof as one enforcement surface, while 2026 trade coverage keeps documentation and traceability framed as market-access infrastructure. The near-term read-through is to stay biased toward chemically characterized, lower-friction herbs, avoid single-ingredient commodity traps, and make QA plus evidence posture part of the product edge rather than back-office cleanup.",
+  "summary": "This pulse got sharper again. FDA posted a fresh recall for Better Weather Fix Elixir after undeclared mitragynine and mitragynine pseudoindoxyl were found, which is a clear warning that fast-acting elixir and shot formats can drift toward opioid-adjacent risk rather than clean botanical positioning. FDA also posted another moringa recall for possible Salmonella contamination, reinforcing that commodity single-herb capsules still carry micro, identity, and reseller-control risk. Layered onto May's sexual-enhancement adulteration recalls, FTC's still-broad claims-and-reviews enforcement posture, and a new 2026 toxicology review across mood/sedative herbs, the near-term read-through is to avoid drug-benchmark lanes, keep rapid-onset vitality formats in the exclusion bucket, and stay biased toward chemically characterized, lower-friction herbs with documentation and interaction flags designed into the brief from the start.",
   "sourceCoverage": [
     {
       "name": "FDA / FTC",
       "type": "Regulatory + enforcement",
-      "use": "Claims substantiation, labeling boundaries, warning letters, recalls, adulteration alerts, and high-risk marketing patterns including implied claims, reviews, testimonials, influencers, and AI-assisted copy."
+      "use": "Claims substantiation, labeling boundaries, warning letters, recalls, adulteration alerts, and high-risk marketing patterns including implied claims, reviews, testimonials, influencers, marketplaces, and AI-assisted copy."
     },
     {
       "name": "NIH / NCCIH / ODS",
@@ -22,7 +22,7 @@
     {
       "name": "Trade + marketplace coverage",
       "type": "Industry trend",
-      "use": "Documentation expectations, sourcing pressure, insurance and retail gate shifts, and delivery-format trends that change where product white space is actually durable."
+      "use": "Documentation expectations, sourcing pressure, retail gate shifts, and delivery-format trends that change where product white space is actually durable."
     },
     {
       "name": "Traditional herbal systems + ethnobotany",
@@ -32,44 +32,64 @@
   ],
   "signals": [
     {
-      "title": "FDA's moringa recall turns commodity single-herb capsules into a QA and channel-screening warning",
+      "title": "FDA's Better Weather recall puts fast-acting elixir formats on the red-flag list",
       "source": "FDA recall notice",
-      "date": "2026-02-13 / accessed 2026-05-28",
-      "category": "Regulatory / contamination",
-      "confidence": "High",
-      "takeaway": "FDA posted Ambrosia Brands' recall of Rosabella Moringa Capsules because of possible Salmonella contamination, with the product sold direct-to-consumer and through social-commerce style channels.",
-      "whyItMatters": "Botanica should treat commodity single-herb capsules, especially those leaning on low-friction DTC or marketplace distribution, as a contamination and channel-governance lesson. Identity, micro, contaminant, and reseller-control logic should be part of the concept brief early.",
-      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ambrosia-brands-llc-recalls-rosabella-moringa-capsules-because-possible-health-risk"
-    },
-    {
-      "title": "FDA's May WAP recall keeps prescription-drug-adjacent vitality positioning in the exclusion bucket",
-      "source": "FDA recall notice",
-      "date": "2026-05-18",
+      "date": "2026-05-28",
       "category": "Regulatory / adulteration",
       "confidence": "High",
-      "takeaway": "FDA posted Best Supplements Best Prices' voluntary recall of WAP Sensual Enhancement capsules after agency analysis found undeclared sildenafil, tadalafil, and flibanserin.",
-      "whyItMatters": "Any Botanica vitality or fast-acting concept that leans toward prescription-drug-adjacent expectations, copy, or channels should remain an exclusion or specialist-review-only lane rather than a near-term product opportunity.",
+      "takeaway": "FDA posted Better Weather Actives LLC's recall of Better Weather Fix Elixir 15 ml because the product may contain undeclared mitragynine and mitragynine pseudoindoxyl, a more potent kratom derivative.",
+      "whyItMatters": "For Botanica, this is a strong warning that fast-onset elixir, shot, or other experiential liquid formats can slide toward opioid-adjacent risk, hidden actives, and severe safety exposure. Any concept that relies on rapid, dramatic, or drug-benchmark framing should stay out of the near-term product lane.",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/better-weather-actives-llc-recalls-better-weather-fix-elixir-due-undeclared-mitragynine-and"
+    },
+    {
+      "title": "A second 2026 moringa recall keeps commodity single-herb capsules in the QA penalty box",
+      "source": "FDA recall notice",
+      "date": "2026-05-26",
+      "category": "Regulatory / contamination",
+      "confidence": "High",
+      "takeaway": "FDA posted Mogo Moringa LLC's recall of select lots of Mogo Moringa Oleifera Capsules because of possible Salmonella contamination, following another moringa recall earlier this year.",
+      "whyItMatters": "This is a live reminder that commodity single-herb capsules need identity, micro, contaminant, and channel-control thinking early. Botanica should keep treating low-differentiation capsule plays as higher-friction than well-characterized, format-led concepts.",
+      "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mogo-moringa-llc-announces-voluntary-recall-select-lots-moringa-capsules-due-possible-salmonella"
+    },
+    {
+      "title": "May's sexual-enhancement recall cluster keeps prescription-drug-adjacent vitality positioning in the exclusion bucket",
+      "source": "FDA recall notices",
+      "date": "2026-05-18 to 2026-05-23",
+      "category": "Regulatory / adulteration",
+      "confidence": "High",
+      "takeaway": "FDA posted recalls for WAP Sensual Enhancement capsules with undeclared sildenafil, tadalafil, and flibanserin, and for Boner Bears Chocolate with undeclared sildenafil.",
+      "whyItMatters": "Anything that leans toward fast-acting sexual-enhancement, stimulant, or prescription-drug-adjacent expectations remains an exclusion or specialist-review-only lane for Botanica, especially in chocolate, beverage, or novelty formats that invite 'feel it now' framing.",
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/best-supplements-best-prices-issues-voluntary-nationwide-recall-wap-sensual-enhancement-capsules-due"
     },
     {
-      "title": "FTC still treats claims, fake reviews, incentives, and bots as one health-product enforcement surface",
-      "source": "FTC TruHeight action + Health Products Compliance Guidance + Reviews Rule Q&A",
-      "date": "2026-04-13 / accessed 2026-05-28",
+      "title": "FTC still treats health claims, fake reviews, incentives, and automated social proof as one enforcement surface",
+      "source": "FTC TruHeight action + Health Products Compliance Guidance",
+      "date": "2026-04-13 / accessed 2026-05-29",
       "category": "Regulatory / advertising",
       "confidence": "High",
-      "takeaway": "FTC's TruHeight matter paired unsubstantiated supplement claims with employee-written reviews, incentivized 5-star reviews, and automated social amplification, while the Reviews Rule Q&A keeps civil-penalty exposure real for knowing violations.",
-      "whyItMatters": "For Botanica, compliance risk extends beyond labels and hero copy. Landing pages, creator briefs, testimonials, giveaway mechanics, seeded reviews, and AI-polished marketing language all need the same evidence discipline as the formula brief itself.",
+      "takeaway": "FTC's TruHeight matter paired unsubstantiated supplement claims with employee-written reviews, incentivized review programs, and fake bot-driven social proof, while the Health Products Compliance Guidance keeps scientific substantiation central across ads, labels, influencer content, and digital marketing.",
+      "whyItMatters": "Botanica compliance risk is not just label copy. Landing pages, seeded testimonials, creator briefs, marketplace listings, and AI-polished marketing language all need the same evidence discipline as the formula brief itself.",
       "url": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-takes-action-against-truheight-deceptive-unsubstantiated-advertising-supposed-height-enhancing"
     },
     {
       "title": "Current NCCIH safety language still keeps ashwagandha and kava in a higher-friction bucket",
       "source": "NCCIH herb pages",
-      "date": "accessed 2026-05-28",
+      "date": "accessed 2026-05-29",
       "category": "Safety",
       "confidence": "High",
-      "takeaway": "NCCIH continues to flag ashwagandha for liver-injury reports plus pregnancy, thyroid, sedative, blood-pressure, diabetes, anticonvulsant, immunosuppressant, and thyroid-medication concerns; kava remains tied to rare but serious liver injury and warnings around alcohol, sedatives, pregnancy, and contamination or adulteration.",
-      "whyItMatters": "Hero-herb selection should keep favoring lower-friction safety profiles where possible, and any calm, stress, or ritual lane built around ashwagandha or kava still needs explicit exclusion flags from day one.",
+      "takeaway": "NCCIH continues to flag ashwagandha for liver-injury reports plus pregnancy, thyroid, sedative, blood-pressure, diabetes, anticonvulsant, immunosuppressant, and thyroid-medication concerns, while kava remains tied to rare but serious liver injury and warnings around alcohol, sedatives, pregnancy, contamination, and adulteration.",
+      "whyItMatters": "Hero-herb selection should keep favoring lower-friction safety profiles where possible. Any calm, stress, or ritual lane built around ashwagandha or kava still needs explicit exclusion flags and specialist review from day one.",
       "url": "https://www.nccih.nih.gov/health/ashwagandha"
+    },
+    {
+      "title": "A 2026 review across mood, stress, and sleep herbs reinforces that interaction risk travels with the category",
+      "source": "PubMed PMID 41901246",
+      "date": "2026-02-28",
+      "category": "Botanical safety / formulation",
+      "confidence": "Medium-high",
+      "takeaway": "A 2026 review of herbal supplements with anxiolytic, antidepressant, and sedative action found clinical interest across herbs including passionflower, valerian, kava, ashwagandha, saffron, and turmeric, but emphasized CYP-mediated interactions, excessive sedation, serotonin-related risk, adulteration, and broader toxicological concerns.",
+      "whyItMatters": "For Botanica, mood and sleep-adjacent categories should be treated as interaction-dense territory even when ingredients are common and legal. Calm-formula differentiation should come from extract discipline, sensory architecture, and conservative positioning rather than aggressive stacking.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41901246/"
     },
     {
       "title": "A 2026 lemon-balm review still looks like Botanica's cleanest near-term hero-herb lane",
@@ -77,29 +97,9 @@
       "date": "2026-02-19",
       "category": "Botanical evidence / formulation",
       "confidence": "Medium-high",
-      "takeaway": "The 2026 integrative review of Melissa officinalis keeps lemon balm attractive for calm, stress-tone, and sleep-adjacent formulation work while reinforcing that extract characterization and preparation details matter.",
-      "whyItMatters": "This keeps lemon balm more attractive as a near-term Botanica anchor than flashier higher-friction herbs, but it rewards extract discipline, sensory design, and conservative positioning instead of vague whole-herb storytelling.",
+      "takeaway": "The 2026 integrative review of Melissa officinalis keeps lemon balm attractive for calm, stress-tone, and sleep-adjacent formulation work while reinforcing that preparation type, phytochemical profile, and standardization matter.",
+      "whyItMatters": "This keeps lemon balm more attractive as a near-term Botanica anchor than flashier higher-friction herbs. It rewards chemically characterized extracts, conservative positioning, and sensory format design instead of vague whole-herb storytelling.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41754356/"
-    },
-    {
-      "title": "The 2026 rhodiola market-quality paper keeps assay specs and authenticity checks non-optional",
-      "source": "PubMed PMID 41544018 / PLOS One",
-      "date": "2026-01-16",
-      "category": "Botanical quality / formulation",
-      "confidence": "Medium-high",
-      "takeaway": "A 2026 U.S.-market analysis of Rhodiola rosea supplements found wide variation in rosavin and salidroside levels alongside heavy-metal and pesticide-residue findings.",
-      "whyItMatters": "Any rhodiola-containing Botanica concept should start with assay specifications, authenticity verification, and contamination review before creative positioning.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41544018/"
-    },
-    {
-      "title": "2026 trade coverage keeps turning safety documentation into a commercial gate, not just a compliance file",
-      "source": "Nutraceuticals World 2026 state-of-industry coverage",
-      "date": "2026-05-28 / accessed 2026-05-28",
-      "category": "Industry / market access",
-      "confidence": "Medium-high",
-      "takeaway": "Current trade coverage highlights tariffs, supply volatility, AI, and especially ingredient-safety documentation, transparency, and risk management as practical factors shaping access, trust, and operating resilience.",
-      "whyItMatters": "Botanica should design identity testing, sourcing traceability, contaminant review, and documentation readiness into the concept brief early because those files increasingly shape where and how a product can move.",
-      "url": "https://www.nutraceuticalsworld.com/2026-state-of-the-dietary-supplement-industry/"
     }
   ],
   "remedies": [
@@ -112,7 +112,7 @@
         "Passionflower"
       ],
       "promise": "An internal R&D concept for lower-friction evening ritual support with more room for sensory and format differentiation than a kava-first concept.",
-      "evidence": "The 2026 lemon-balm review plus the current documentation-first market climate keep this Botanica's cleanest near-term lane when extract characterization, contaminant logic, and sourcing clarity are designed into the brief.",
+      "evidence": "The 2026 lemon-balm review and the broader 2026 mood/sedative safety review both support a calmer, cleaner lane when extract characterization, conservative stacking, and interaction screening are designed into the brief.",
       "risk": "Sedation, pregnancy, and medication-interaction screening still apply; no sleep-cure, anxiety-treatment, or guaranteed next-day-performance language.",
       "status": "Best near-term exploration"
     },
@@ -125,9 +125,22 @@
         "Lemon balm"
       ],
       "promise": "A steadier focus concept that avoids higher-friction adaptogens as the hero ingredient and fits a documentation-first product story.",
-      "evidence": "This lane still looks easier to spec and position safely than an ashwagandha- or rhodiola-led concept, while leaving room for noticeable experiential design and flexible delivery formats.",
+      "evidence": "This lane still looks easier to spec and position safely than an ashwagandha- or stimulant-coded concept, while leaving room for noticeable experiential design and flexible non-drug-coded formats.",
       "risk": "Avoid ADHD, stimulant, prescription-drug-analogue, burnout-fix, or productivity-overpromise language; mushroom-allergy and interaction screening still apply.",
       "status": "Cleanest daytime lane"
+    },
+    {
+      "name": "House Bitters",
+      "lane": "Digestive ritual / sensory apéritif-adjacent",
+      "leadHerbs": [
+        "Gentian",
+        "Lemon balm",
+        "Orange peel"
+      ],
+      "promise": "An internal R&D concept for a sensorial botanical ritual that leans on taste architecture and format distinction instead of disease or quick-fix claims.",
+      "evidence": "The current recall and enforcement climate makes carefully sourced, chemically legible, lower-stimulation ritual formats more attractive than fast-acting novelty liquids, vitality shots, or pseudo-drug positioning.",
+      "risk": "Bitters, citrus, and digestive-positioning language still need conservative claims discipline and medication-screening review; no GERD, IBS, appetite-control, or dosing claims.",
+      "status": "Format-differentiated exploration"
     },
     {
       "name": "Golden Hour",
@@ -138,7 +151,7 @@
         "Cacao polyphenols"
       ],
       "promise": "An internal R&D concept for warmer emotional tone built around a relatively strong mood-oriented ingredient, but framed conservatively and documented carefully.",
-      "evidence": "This lane remains interesting if standardized sourcing, adverse-event review, and narrow positioning are treated as part of the concept rather than later marketing cleanup.",
+      "evidence": "This lane remains interesting if standardized sourcing, adverse-event review, and narrow positioning are treated as part of the concept rather than later cleanup, especially given the broader 2026 reminder that mood herbs carry interaction density.",
       "risk": "Keep pregnancy screening, interaction review, and prolonged-use caution in scope; no disorder, diagnosis, serotonergic-overclaim, or dosing language.",
       "status": "Priority research candidate"
     },
@@ -151,35 +164,22 @@
         "L-theanine"
       ],
       "promise": "A sharper internal concept for resilient energy, kept alive only if procurement specs and analytical verification are part of the product thesis.",
-      "evidence": "Rhodiola still has experiential appeal, but the 2026 market-quality paper keeps this lane in verification-first territory rather than easy hero-herb status.",
+      "evidence": "Rhodiola still has experiential appeal, but recent quality-control work and the broader crackdown on fast-feel categories keep this lane in verification-first territory rather than easy hero-herb status.",
       "risk": "Require assay specs, contamination review, interaction screening, and no stimulant-analogue language before advancing.",
       "status": "Verification-first only"
-    },
-    {
-      "name": "House Bitters",
-      "lane": "Digestive ritual / sensory apéritif-adjacent",
-      "leadHerbs": [
-        "Gentian",
-        "Lemon balm",
-        "Orange peel"
-      ],
-      "promise": "An internal R&D concept for a sensorial botanical ritual that leans on taste architecture and format distinction instead of disease or quick-fix claims.",
-      "evidence": "The current regulatory and contamination climate makes carefully sourced, chemically legible, lower-stimulation ritual formats more attractive than category-edge promises or fast-acting pseudo-drug positioning.",
-      "risk": "Bitters, citrus, and digestive-positioning language still need conservative claims discipline and medication-screening review; no GERD, IBS, appetite-control, or dosing claims.",
-      "status": "Format-differentiated exploration"
     }
   ],
   "watchlist": [
-    "FDA recalls, warning letters, import alerts, and adulteration notices touching botanicals, especially undeclared actives, contamination events, and identity-substitution cases",
+    "FDA recalls, warning letters, import alerts, and adulteration notices touching botanicals, especially undeclared actives, contamination events, identity-substitution cases, and fast-acting liquid or novelty formats",
     "FDA ingredient-scope, NDI, directory, and manufacturing-method developments that change how novel extracts, mushrooms, ferments, proteins, peptides, or microbials should be screened",
-    "FTC health-claims substantiation and review-rule enforcement across product pages, ads, creator briefs, UGC, affiliate copy, seeded testimonials, ratings, reviews, and AI-assisted marketing",
+    "FTC health-claims substantiation and review-rule enforcement across product pages, ads, creator briefs, UGC, affiliate copy, seeded testimonials, ratings, reviews, marketplaces, and AI-assisted marketing",
     "Commercial gate changes where insurers, distributors, retailers, or marketplaces increasingly expect third-party-ready testing, cGMP evidence, identity verification, or tighter ingredient documentation",
     "NCCIH / NIH / ODS safety updates for ashwagandha, kava, saffron, berberine, mushrooms, shatavari, cistanche, and other higher-risk Botanica candidates",
     "PubMed reviews, RCTs, and quality-control papers for lemon balm, saffron, lion's mane, rhodiola, reishi, schisandra, shatavari, cistanche, cordyceps, and berberine lanes",
     "Analytical quality-control signals around marker-compound variance, synthetic spiking, pesticide residues, heavy metals, microbiological contamination, adulteration, and traceability expectations for hero herbs",
     "Tariff, sourcing, and raw-material volatility that could change format choice, margin, or feasibility for imported botanicals and mushroom inputs",
     "Retail and supplier trend coverage for calm-focus, mood-tone, women's-botanical, vitality, ritual-calm, digestive-support, and ceremonial-format products",
-    "Delivery-format signals across lozenges, chocolates, bitters, tinctures, teas, powders, gummies, beverages, and shot hybrids, especially where format creates fast-acting or drug-like expectations",
+    "Delivery-format signals across lozenges, chocolates, bitters, tinctures, teas, powders, gummies, beverages, shots, and shot hybrids, especially where format creates rapid-onset or drug-like expectations",
     "Any new liver, thyroid, sedative, pregnancy, serotonergic, glycemic, psychiatric, anticoagulant, CYP, hormone, contamination, documentation, identity-risk, or AI-generated-claims literature that changes exclusion flags or launch feasibility"
   ]
 }
