@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-01T06:17:00-07:00",
+  "lastUpdated": "2026-06-02T06:15:00-07:00",
   "nextScan": "Daily at 06:15 PT, with source rotation",
-  "status": "Living research pulse refreshed",
-  "summary": "This pulse stayed in the same core lane but sharpened the board. The strongest current signals are still FDA's late-May recall cluster around undeclared or contaminated botanical products, FTC's reminder that product claims and review manipulation now sit on the same enforcement surface, NCCIH and recent review literature keeping mood/sleep herbs in an interaction-aware bucket, and trade reporting that tariffs, climate pressure, and transparency demands are raising the cost of sloppy sourcing. Botanica's cleaner white space still looks like chemically legible, lower-friction herbs in disciplined ritual formats rather than quick-feel elixirs, generic marketplace capsules, or candy-coded stacks.",
+  "status": "Living research pulse refreshed; no major new signal surfaced",
+  "summary": "This scan did not surface a material new botanical/supplement signal beyond yesterday's board. The strongest live signals remain FDA's late-May recall cluster around undeclared or contaminated botanical products, FTC's reminder that product claims and review manipulation now sit on the same enforcement surface, NCCIH and recent review literature keeping mood/sleep herbs in an interaction-aware bucket, and trade reporting that tariffs, climate pressure, and transparency demands keep raising the cost of sloppy sourcing. Botanica's cleaner white space still looks like chemically legible, lower-friction herbs in disciplined ritual formats rather than quick-feel elixirs, generic marketplace capsules, or candy-coded stacks.",
   "sourceCoverage": [
     {
       "name": "FDA / FTC",
@@ -54,7 +54,7 @@
     {
       "title": "FTC is making claims substantiation and review manipulation one connected compliance surface",
       "source": "FTC TruHeight action + Consumer Reviews Rule + Health Products Compliance Guidance",
-      "date": "2026-04-13 / accessed 2026-06-01",
+      "date": "2026-04-13 / accessed 2026-06-02",
       "category": "Regulatory / advertising",
       "confidence": "High",
       "takeaway": "FTC's 2026 TruHeight action paired unsubstantiated supplement claims with employee-written reviews, incentivized five-star reviews, and bot-shaped social proof, while the Reviews and Testimonials Rule and health-products guidance make clear that deceptive review tactics can carry civil-penalty exposure alongside unsupported health claims.",
@@ -64,7 +64,7 @@
     {
       "title": "NCCIH plus current review literature still keep mood and sleep herbs in the interaction-dense bucket",
       "source": "NCCIH herb-drug interactions digest + PubMed PMIDs 41901246 and 41754356",
-      "date": "2026-02-19 / 2026-02-28 / accessed 2026-06-01",
+      "date": "2026-02-19 / 2026-02-28 / accessed 2026-06-02",
       "category": "Safety / formulation",
       "confidence": "High",
       "takeaway": "NCCIH continues to highlight meaningful herb-drug interaction risks across common botanicals, and recent 2026 reviews reinforce that familiar mood/sleep herbs still carry CYP, sedation, serotonergic, adulteration, and preparation-dependence concerns even when the category feels mainstream.",
@@ -84,7 +84,7 @@
     {
       "title": "Trade reporting says herbals are growing, but tariffs, climate pressure, and transparency demands raise the bar on sourcing",
       "source": "Nutraceuticals World 2026 State of the Industry + AHPA / Herbalist & Alchemist commentary + NutraIngredients Vitafoods coverage",
-      "date": "2026-05-19 / accessed 2026-06-01",
+      "date": "2026-05-19 / accessed 2026-06-02",
       "category": "Industry trend / sourcing + format",
       "confidence": "Medium",
       "takeaway": "Current trade coverage says herbals are a growth engine, but sourcing volatility, tariff uncertainty, climate pressure, and stronger expectations around traceability, analytical quality, and authentic positioning are colliding with continued crowding in gummies and convenience-led hybrid formats.",
