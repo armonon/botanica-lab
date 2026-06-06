@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-06-05T08:14:00-07:00",
+  "lastUpdated": "2026-06-06T06:15:00-07:00",
   "nextScan": "Daily at 06:15 PT, with source rotation",
-  "status": "Living research pulse refreshed; no second major enforcement wave surfaced, but FDA's moringa outbreak page sharpened the marketplace-quality signal",
-  "summary": "This scan did not surface a second major enforcement event after the June 2 FTC Amare complaint, but it did materially sharpen two existing threads: FDA's moringa contamination story is now clearly an active outbreak investigation with reported hospitalizations, and FDA's Better Weather recall keeps rapid-onset liquid botanicals in a high-risk lane. NCCIH still frames common herbs as interaction-aware pharmacology rather than harmless pantry add-ons, PubMed E-utilities still show active 2025-2026 review traffic for Botanica-adjacent herbs like lemon balm, lion's mane, and saffron, and 2026 trade commentary keeps rewarding country-of-origin accuracy, certification, and shorter, well-documented decks. Botanica's near-term white space still looks like ritual-first, traceable, chemically legible formats with modest experiential targets, conservative copy, and documentation-led sourcing.",
+  "status": "Living research pulse refreshed; the clearest new development is a broader CDC/FDA moringa contamination cluster rather than a brand-isolated recall story.",
+  "summary": "This scan surfaced one meaningful escalation: CDC now frames the current moringa problem as two Salmonella outbreaks linked to moringa leaf powder, with a June 2 recall expansion spanning additional TNVitamins and Doctor's Pride moringa capsule lots on top of earlier MOGO, Why Not Natural, and Live it Up super greens recalls. FTC's June 2 Amare complaint keeps child/family mental-state claims, neurotransmitter language, and seller-amplified supplement marketing squarely in the enforcement lane. FDA's Better Weather recall still makes dramatic rapid-onset liquid botanicals look structurally unattractive, NCCIH still frames familiar herbs as interaction-aware pharmacology rather than harmless wellness garnish, and PubMed E-utilities still show active 2025-2026 review traffic around Botanica-adjacent herbs such as lemon balm, lion's mane, and saffron. Botanica's best near-term white space still looks like short-deck, traceable, assay-legible ritual formats with modest experiential targets and very conservative copy.",
   "sourceCoverage": [
     {
-      "name": "FDA / FTC",
-      "type": "Regulatory + enforcement",
-      "use": "Claims substantiation, labeling boundaries, recalls, adulteration alerts, outbreak investigations, and reviews/testimonials risk."
+      "name": "FDA / FTC / CDC",
+      "type": "Regulatory + enforcement + outbreak surveillance",
+      "use": "Claims substantiation, labeling boundaries, recalls, adulteration alerts, outbreak investigations, marketplace contamination patterns, and testimonial/affiliate risk."
     },
     {
       "name": "NIH / NCCIH",
@@ -20,7 +20,7 @@
       "use": "Recent review-level evidence and category-volume scans for Botanica herbs and calm-focus / mood / sleep-adjacent lanes."
     },
     {
-      "name": "Nutraceuticals World / AHPA-adjacent trade commentary",
+      "name": "Nutraceuticals World / supplier-trade commentary",
       "type": "Industry trend",
       "use": "Format crowding, sourcing pressure, origin accuracy, certification signals, and retail-facing product-development themes."
     },
@@ -32,24 +32,24 @@
   ],
   "signals": [
     {
-      "title": "FTC's Amare case keeps neurochemical claims, child/family positioning, and seller-amplified supplement marketing squarely in the enforcement lane",
+      "title": "FTC's Amare case keeps child/family supplement claims, neurotransmitter language, and seller-amplified health marketing in the danger zone",
       "source": "FTC complaint / press release + Health Products Compliance Guidance",
       "date": "2026-06-02",
       "category": "Regulatory / advertising",
       "confidence": "High",
-      "takeaway": "FTC sued Amare Global Holdings and principals over allegedly false and unsubstantiated claims that supplements for children and adults could treat or mitigate depression, anxiety, and ADHD, while also challenging MLM earnings claims and seller-amplified messaging.",
-      "whyItMatters": "For Botanica, risk control has to cover label copy, landing pages, affiliate scripts, creator content, reviews, and internal shorthand around cortisol, serotonin, dopamine, GABA, or child/family mental-state positioning. Even internal R&D concepts should avoid drifting toward consumer-ready neurotransmitter promises.",
+      "takeaway": "FTC sued Amare Global Holdings and principals over allegedly false and unsubstantiated claims that supplements for children and adults could address depression, anxiety, ADHD, cortisol, serotonin, dopamine, and GABA-related outcomes, while also challenging MLM earnings claims and seller amplification.",
+      "whyItMatters": "For Botanica, risk controls have to cover label copy, landing pages, creator scripts, affiliate language, reviews, and internal shorthand that could drift toward consumer-ready neurotransmitter or family mental-state promises.",
       "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-sues-stop-amare-global-holdings-misrepresenting-health-benefits-its-dietary-supplements-children"
     },
     {
-      "title": "FDA's moringa outbreak page turns the recent recall cluster into a clearer marketplace-quality warning",
-      "source": "FDA outbreak investigation + recall notices",
-      "date": "2026-05-27 / accessed 2026-06-05",
+      "title": "CDC/FDA now frame moringa contamination as a broader category-cluster problem, not a one-brand anomaly",
+      "source": "CDC outbreak advisory + FDA outbreak and recall notices",
+      "date": "2026-06-02 / accessed 2026-06-06",
       "category": "Regulatory / contamination",
       "confidence": "High",
-      "takeaway": "FDA's ongoing Salmonella outbreak investigation tied to MOGO-brand moringa capsules reported 18 illnesses across 14 states and 7 hospitalizations as of May 27, while separate moringa capsule recalls broaden the signal beyond a one-off manufacturing miss.",
-      "whyItMatters": "Commodity botanical capsules sold through broad online marketplaces still carry extra friction around micro risk, traceability, reseller control, and documentation. Botanica should keep deprioritizing generic capsule plays unless verification and channel discipline are central to the concept.",
-      "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/outbreak-investigation-salmonella-moringa-leaf-powder-may-2026"
+      "takeaway": "CDC's current advisory describes two Salmonella outbreaks linked to moringa leaf powder and notes a June 2 recall expansion for additional TNVitamins and Doctor's Pride moringa lots, alongside earlier recalls involving MOGO, Why Not Natural, and Live it Up super greens powders.",
+      "whyItMatters": "Generic moringa capsules, green superfood powders, and marketplace-distributed commodity botanicals now look even less attractive. Botanica should keep deprioritizing commodity greens lanes unless traceability, microbiological controls, and channel discipline are core to the concept.",
+      "url": "https://www.cdc.gov/salmonella/outbreaks/supergreenssupplementpowders-1-26/index.html"
     },
     {
       "title": "FDA's Better Weather recall keeps rapid-onset botanical elixirs in the high-risk bucket",
@@ -58,36 +58,36 @@
       "category": "Regulatory / adulteration",
       "confidence": "High",
       "takeaway": "FDA posted Better Weather Actives LLC's recall of Better Weather Fix Elixir 15 ml because the product may contain undeclared mitragynine and mitragynine pseudoindoxyl, a more potent kratom derivative.",
-      "whyItMatters": "Any Botanica concept that depends on dramatic onset, secret-sauce liquid intensity, or drug-benchmark framing still looks unattractive. Fast-feel elixirs and shots should stay outside the near-term lane unless analytical verification and extremely conservative positioning are the whole thesis.",
+      "whyItMatters": "Any Botanica concept that depends on dramatic onset, secret-sauce liquid intensity, or drug-benchmark framing still looks unattractive. Fast-feel shots and elixirs should stay out of the near-term lane unless analytical verification and extremely conservative positioning are the whole thesis.",
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/better-weather-actives-llc-recalls-better-weather-fix-elixir-due-undeclared-mitragynine-and"
     },
     {
       "title": "NCCIH still treats familiar herbs as interaction-aware ingredients, not low-consequence wellness garnish",
       "source": "NCCIH herb-drug interactions digest",
-      "date": "accessed 2026-06-05",
+      "date": "accessed 2026-06-06",
       "category": "Safety / formulation",
       "confidence": "High",
-      "takeaway": "NCCIH continues to highlight meaningful interaction and safety concerns across common botanicals, including bleeding risk, CYP and transporter effects, sedative overlap, and reduced drug exposure for some combinations.",
+      "takeaway": "NCCIH continues to highlight meaningful interaction and safety concerns across common botanicals, including bleeding risk, CYP and transporter effects, sedative overlap, and reduced drug exposure for some combinations such as goldenseal with metformin and high-dose green tea with some cardiovascular drugs.",
       "whyItMatters": "Botanica should keep treating calm, mood, and focus formulas as extract-specific design problems with explicit exclusion flags, not as harmless kitchen-shelf stacks. Shorter formulas with clearer rationale still look stronger than maximalist blends.",
       "url": "https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions"
     },
     {
-      "title": "PubMed still shows dense 2025-2026 review traffic for Botanica-friendly herbs, but the real edge is standardization and extract identity",
+      "title": "PubMed E-utilities still show dense 2025-2026 review traffic for Botanica-friendly herbs, but extract identity remains the real edge",
       "source": "NCBI E-utilities scans for Melissa officinalis, Hericium erinaceus, and Crocus sativus",
-      "date": "accessed 2026-06-05",
+      "date": "accessed 2026-06-06",
       "category": "Botanical evidence / portfolio prioritization",
       "confidence": "Medium-high",
-      "takeaway": "Current E-utilities review-filter scans returned active 2025-2026 literature volume for lemon balm, lion's mane, and saffron, which supports continued exploration but also reinforces how quickly broad herb names blur into mixed extracts, mixed endpoints, and mixed product stories.",
-      "whyItMatters": "Botanica's safer white space is not 'more herbs' but cleaner ingredient identity, narrower experiential targets, and formulas whose sourcing and extract specs can be documented without overclaiming.",
+      "takeaway": "Current E-utilities review-filter scans returned active 2025-2026 literature counts for lemon balm (20), lion's mane (27), and saffron (41), reinforcing that these lanes remain active but methodologically mixed across extract types and endpoints.",
+      "whyItMatters": "Botanica's safer white space is not simply 'more herbs' but cleaner ingredient identity, narrower experiential targets, and formulas whose sourcing and extract specs can be documented without overclaiming.",
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Melissa%20officinalis%22%5BTitle%2FAbstract%5D%20AND%20(review%5BPublication%20Type%5D%20OR%20systematic%20review%5BTitle%2FAbstract%5D)%20AND%202025:2026%5Bpdat%5D&retmode=json"
     },
     {
-      "title": "2026 trade commentary keeps pushing country-of-origin accuracy, certification, and beverage-ready botanicals over anonymous commodity blends",
+      "title": "2026 trade commentary keeps rewarding country-of-origin accuracy, certification, and beverage-ready botanicals over anonymous commodity blends",
       "source": "Nutraceuticals World 2026 State of the Supplement Industry",
-      "date": "2026-05-19 / accessed 2026-06-05",
+      "date": "2026-05-19 / accessed 2026-06-06",
       "category": "Industry trend / sourcing + format",
       "confidence": "Medium",
-      "takeaway": "Current trade commentary highlights tariffs, country-of-origin scrutiny, sustainability certifications such as FairWild, and a growing functional-beverage opportunity built on safety, documentation, and authentic supply stories.",
+      "takeaway": "Current trade commentary highlights tariffs, country-of-origin scrutiny, sustainability certifications such as FairWild, and functional beverage growth, while also warning that label-claim literacy and supply-chain documentation are increasingly central to durable growth.",
       "whyItMatters": "Botanica should prefer SKUs whose edge survives tougher sourcing and review environments: fewer hero ingredients, clearer assay specs, stronger origin documentation, and formats that feel deliberate instead of candy-coded or marketplace-generic.",
       "url": "https://www.nutraceuticalsworld.com/collaboration-compliance-and-country-of-origin-navigating-trade-and-growth-in-2026-state-of-the-supplement-industry/"
     }
@@ -102,9 +102,9 @@
         "Schisandra"
       ],
       "promise": "An internal R&D concept family built around identity, assay, and sourcing transparency as part of the product edge rather than invisible back-office work.",
-      "evidence": "Current recall, tariff, and origin-accuracy pressure make a tighter bill-of-materials story more defensible than sprawling marketplace formulas, especially when the experiential target stays modest and format-led.",
+      "evidence": "The current contamination and origin-pressure climate makes a tighter bill-of-materials story more defensible than sprawling marketplace formulas, especially when the experiential target stays modest and format-led.",
       "risk": "Still requires extract specs, exclusion-screen review, and conservative copy discipline; avoid broad resilience, hormone, or neurotransmitter-overreach language.",
-      "status": "Best near-term commercial frame; strongest in lozenge, tea concentrate, or bitters rather than gummy or commodity capsule"
+      "status": "Best near-term frame; strongest in lozenge, tea concentrate, or bitters rather than gummy, commodity capsule, or greens powder"
     },
     {
       "name": "Clear Current",
@@ -115,7 +115,7 @@
         "Lemon balm"
       ],
       "promise": "A steadier focus concept that avoids higher-friction adaptogens as the hero ingredient and fits a documentation-first product story.",
-      "evidence": "PubMed review density remains active for Botanica-adjacent cognition and mood herbs, but the cleaner opportunity still looks like a short deck with well-characterized inputs and modest experiential positioning.",
+      "evidence": "PubMed review traffic remains active for Botanica-adjacent cognition and mood herbs, but the cleaner opportunity still looks like a short deck with well-characterized inputs and modest experiential positioning.",
       "risk": "Avoid ADHD, neurotransmitter, cortisol-balance, prescription-drug-analogue, burnout-fix, or productivity-overpromise language; mushroom-allergy and interaction screening still apply.",
       "status": "Clean daytime lane; strongest in lozenge, stick-pack powder, or tea concentrate with conservative copy discipline"
     },
@@ -153,15 +153,15 @@
         "Lemon balm",
         "Orange peel"
       ],
-      "promise": "An internal R&D concept for a sensorial botanical ritual that leans on taste architecture and format distinction instead of disease or quick-fix claims.",
-      "evidence": "The current recall and enforcement climate keeps carefully sourced, chemically legible ritual formats more attractive than dramatic quick-feel liquids or generic capsule greens blends.",
+      "promise": "An internal R&D concept for a sensorial botanical ritual that leans on taste architecture and format distinction instead of dramatic quick-fix claims.",
+      "evidence": "The current recall and enforcement climate keeps carefully sourced, chemically legible ritual formats more attractive than dramatic quick-feel liquids or generic greens blends.",
       "risk": "Digestive-positioning language still needs conservative claims review and medication-screening review; no GERD, IBS, appetite-control, or dosing claims.",
       "status": "Format-differentiated exploration with good compliance posture if sourcing is clean"
     }
   ],
   "watchlist": [
+    "CDC/FDA developments tied to moringa-containing dietary supplements, green blends, microbiological contamination, and marketplace-channel enforcement",
     "FDA recalls, warning letters, and adulteration notices touching undeclared actives, contamination, identity substitution, and fast-acting liquid formats",
-    "FDA/CDC developments tied to moringa-containing dietary supplements, green blends, microbiological contamination, and marketplace-channel enforcement",
     "FTC or AG scrutiny of child- or family-targeted supplement marketing, creator or affiliate scripts, reviews/testimonials drift, and neurotransmitter or cortisol language",
     "NCCIH / NIH safety updates for ashwagandha, kava, saffron, berberine, mushrooms, shatavari, cistanche, and other higher-friction Botanica candidates",
     "PubMed reviews, RCTs, and quality-control papers for lemon balm, saffron, lion's mane, rhodiola, reishi, schisandra, shatavari, cistanche, cordyceps, and berberine lanes",
