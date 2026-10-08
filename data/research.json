@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-09T06:15:00-07:00",
+  "lastUpdated": "2026-10-08T06:15:00-07:00",
   "nextScan": "Daily at 06:15 PT, with source rotation",
-  "status": "Living research pulse refreshed; no single new hero herb surfaced. The sharper current pattern is converging pressure on claims, contamination control, and documentation-forward ingredient identity.",
-  "summary": "This scan did not surface a breakout new herb. It reinforced a tighter compliance-and-proof story: FTC's June 2 Amare complaint keeps child/family mental-state claims, neurotransmitter language, and seller-amplified supplement marketing squarely in the enforcement lane; FDA's active moringa outbreak investigation and Better Weather elixir recall keep contamination and undeclared-active risk concrete; FDA's March ingredient-scope meeting and 2026 industry commentary both point toward identity testing, documentation, and online-claims discipline as the durable edge. NCCIH still frames familiar herbs as pharmacologically active with interaction risk, not harmless wellness garnish. PubMed E-utilities still show dense 2025-2026 review activity around Botanica-friendly lanes such as lemon balm, lion's mane, and saffron, which argues for spec-led, short-deck formulas over novelty chasing.",
+  "status": "Living research pulse refreshed; no single new hero herb surfaced. The sharper current pattern is quality of evidence, claims control, contamination control, and documentation-forward ingredient identity.",
+  "summary": "This scan did not surface a defensible breakout herb or a reason to relax any safety gate. The FTC's Amare action still makes child/family mental-state claims, neurotransmitter language, and seller-amplified marketing an enforcement risk; FDA's moringa outbreak investigation and Better Weather recall keep contamination and undeclared-active risk concrete. FDA's ingredient-scope work continues to favor identity and manufacturing documentation. An October industry-format signal supports branded, specifiable inputs and beverage/powder execution, but it is supplier marketing rather than efficacy evidence. Crucially, an October PubMed E-utilities scan found 239 2026 records mentioning lemon balm, saffron, or lion's mane, with leading results substantially preclinical, agricultural, food-science, or processing-oriented. That is research activity, not a clinical-efficacy upgrade. NCCIH's interaction framing remains the safety baseline.",
   "sourceCoverage": [
     {
       "name": "FDA / FTC / CDC",
@@ -82,24 +82,24 @@
       "url": "https://www.nccih.nih.gov/health/providers/digest/herb-drug-interactions"
     },
     {
-      "title": "PubMed review traffic stays dense for lemon balm, lion's mane, and saffron, but extract identity still looks like the real edge",
-      "source": "NCBI E-utilities scans for Melissa officinalis, Hericium erinaceus, and Crocus sativus",
-      "date": "accessed 2026-06-09",
+      "title": "PubMed activity is high for lemon balm, lion's mane, and saffron—but the latest broad hit set is not a clinical-efficacy upgrade",
+      "source": "NCBI E-utilities scan for Melissa officinalis, Hericium erinaceus, and Crocus sativus",
+      "date": "accessed 2026-10-08",
       "category": "Botanical evidence / portfolio prioritization",
       "confidence": "Medium-high",
-      "takeaway": "2025-2026 review-filter PubMed scans still return active literature counts for lemon balm (20), lion's mane (28), and saffron (43), reinforcing that these lanes remain active but heterogeneous across extract types, endpoints, and formulation context.",
-      "whyItMatters": "The white space is less about chasing obscure novelty and more about choosing well-characterized inputs, modest experiential targets, and formulas whose specs can be documented without overclaiming.",
-      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%22Melissa+officinalis%22%5BTitle%2FAbstract%5D+AND+%28review%5BPublication+Type%5D+OR+systematic+review%5BTitle%2FAbstract%5D%29+AND+2025%3A2026%5Bpdat%5D&retmode=json"
+      "takeaway": "A broad 2026 query returned 239 records, but leading results included zebrafish toxicology, fungal cultivation, saffron crop science, food processing, and carrier materials. Keyword volume alone should not be turned into human-outcome or product-claim confidence.",
+      "whyItMatters": "The evidence desk should screen by study type, extract identity, population, and endpoint before any concept moves forward. The white space remains well-characterized inputs and modest experiential targets—not novelty or publication-count theater.",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Melissa+officinalis%22%5BTitle%2FAbstract%5D+OR+%22Crocus+sativus%22%5BTitle%2FAbstract%5D+OR+%22Hericium+erinaceus%22%5BTitle%2FAbstract%5D%29+AND+2026%5Bpdat%5D&retmode=json"
     },
     {
-      "title": "2026 industry commentary points to documentation, identity testing, online-claims scrutiny, and tariff volatility as the real operating environment",
-      "source": "Nutraceuticals World 2026 State of the Dietary Supplement Industry",
-      "date": "2026 / accessed 2026-06-09",
+      "title": "October supplier-trade coverage favors branded, specifiable inputs and beverage/powder execution—but is a format signal, not clinical substantiation",
+      "source": "Nutraceuticals World: Balchem at SupplySide Global",
+      "date": "2026-10-02",
       "category": "Industry trend / operating environment",
-      "confidence": "Medium",
-      "takeaway": "Current industry commentary repeatedly highlights ingredient safety becoming a market-driven standard, heavier documentation and identity-testing expectations, scrutiny of online claims, and tariff or trade volatility shaping supplement operations.",
-      "whyItMatters": "Botanica should bias toward short formulas with assay-ready sourcing, conservative copy controls, and formats that do not invite hype-heavy digital overclaim drift. Supply resilience matters alongside positioning.",
-      "url": "https://www.nutraceuticalsworld.com/2026-state-of-the-dietary-supplement-industry/"
+      "confidence": "Low-medium",
+      "takeaway": "Trade coverage around SupplySide Global highlights branded ingredients, application support, beverages, and customizable powder systems. This is directional supplier coverage—not independent proof that a botanical format works or that consumers will respond.",
+      "whyItMatters": "Use the signal only for execution hypotheses: a short, assay-ready formula may translate more cleanly into tea concentrate, lozenge, powder, or capsule than into a hype-prone fast-feel shot. Validate demand and stability separately.",
+      "url": "https://www.nutraceuticalsworld.com/live_from_shows/balchem-to-highlight-branded-ingredients-at-supplyside-global/"
     }
   ],
   "remedies": [
