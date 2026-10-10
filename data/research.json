@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-10-08T06:15:00-07:00",
+  "lastUpdated": "2026-10-10T06:15:00-07:00",
   "nextScan": "Daily at 06:15 PT, with source rotation",
-  "status": "Living research pulse refreshed; no single new hero herb surfaced. The sharper current pattern is quality of evidence, claims control, contamination control, and documentation-forward ingredient identity.",
-  "summary": "This scan did not surface a defensible breakout herb or a reason to relax any safety gate. The FTC's Amare action still makes child/family mental-state claims, neurotransmitter language, and seller-amplified marketing an enforcement risk; FDA's moringa outbreak investigation and Better Weather recall keep contamination and undeclared-active risk concrete. FDA's ingredient-scope work continues to favor identity and manufacturing documentation. An October industry-format signal supports branded, specifiable inputs and beverage/powder execution, but it is supplier marketing rather than efficacy evidence. Crucially, an October PubMed E-utilities scan found 239 2026 records mentioning lemon balm, saffron, or lion's mane, with leading results substantially preclinical, agricultural, food-science, or processing-oriented. That is research activity, not a clinical-efficacy upgrade. NCCIH's interaction framing remains the safety baseline.",
+  "status": "Living research pulse refreshed; no major new signal surfaced. The sharper current pattern remains quality of evidence, claims control, contamination control, and documentation-forward ingredient identity.",
+  "summary": "This scan did not surface a defensible breakout herb, new enforcement item, or reason to relax any safety gate. The FTC's Amare action still makes child/family mental-state claims, neurotransmitter language, and seller-amplified marketing an enforcement risk; FDA's moringa outbreak investigation and Better Weather recall keep contamination and undeclared-active risk concrete. FDA's ingredient-scope work continues to favor identity and manufacturing documentation. An October industry-format signal supports branded, specifiable inputs and beverage/powder execution, but it is supplier marketing rather than efficacy evidence. A fresh PubMed E-utilities scan across core Botanica herbs found one newly indexed record: a disease-focused mechanistic phytochemical review, not a human-outcome or product-claim upgrade. NCCIH's interaction framing remains the safety baseline.",
   "sourceCoverage": [
     {
       "name": "FDA / FTC / CDC",
@@ -84,10 +84,10 @@
     {
       "title": "PubMed activity is high for lemon balm, lion's mane, and saffron—but the latest broad hit set is not a clinical-efficacy upgrade",
       "source": "NCBI E-utilities scan for Melissa officinalis, Hericium erinaceus, and Crocus sativus",
-      "date": "accessed 2026-10-08",
+      "date": "accessed 2026-10-10",
       "category": "Botanical evidence / portfolio prioritization",
       "confidence": "Medium-high",
-      "takeaway": "A broad 2026 query returned 239 records, but leading results included zebrafish toxicology, fungal cultivation, saffron crop science, food processing, and carrier materials. Keyword volume alone should not be turned into human-outcome or product-claim confidence.",
+      "takeaway": "A broad 2026 query returned 239 records, while a focused October 8–10 scan found one newly indexed, disease-focused mechanistic review. Neither result is a human-outcome or product-claim upgrade; keyword volume and disease-model literature should not be converted into consumer-facing confidence.",
       "whyItMatters": "The evidence desk should screen by study type, extract identity, population, and endpoint before any concept moves forward. The white space remains well-characterized inputs and modest experiential targets—not novelty or publication-count theater.",
       "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22Melissa+officinalis%22%5BTitle%2FAbstract%5D+OR+%22Crocus+sativus%22%5BTitle%2FAbstract%5D+OR+%22Hericium+erinaceus%22%5BTitle%2FAbstract%5D%29+AND+2026%5Bpdat%5D&retmode=json"
     },
